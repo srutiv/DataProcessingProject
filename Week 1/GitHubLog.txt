@@ -1,0 +1,1042 @@
+2016-06-13 15:41:13.0751|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: error: open("~$Data.xlsx"): Permission denied
+error: unable to index file ~$Data.xlsx
+fatal: adding files failed
+2016-06-13 14:41:52.6933|INFO|thread:13|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\ahsdrones\.git of 16294 milliseconds
+2016-06-13 14:41:52.7534|INFO|thread:17|AsyncReaderWriterLock|Released concurrent scheduler for operation: 9 at RepositoryViewModel.cs:336 after blocking 0.4548809s
+2016-06-13 14:41:54.1386|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 12 at GitClient.cs:611
+2016-06-13 14:41:54.1386|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 12 at GitClient.cs:611 after waiting 3.26E-05s
+2016-06-13 14:41:54.1386|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 12 at GitClient.cs:611 after blocking 0.0066387s
+2016-06-13 14:41:54.2801|INFO|thread:19|ConcurrentRepositoryConnection|Took 1788ms to git status
+2016-06-13 14:41:54.2801|INFO|thread:19|ConcurrentRepositoryConnection|Took 1794ms to git status and parse output
+2016-06-13 14:41:55.3839|INFO|thread:19|NewCommitViewModel|Took 3031ms to load files for C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:41:55.3839|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 11 at GitClient.cs:290 after blocking 3.0189287s
+2016-06-13 14:41:56.1790|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 13 at GitClient.cs:623
+2016-06-13 14:41:56.1790|INFO|thread:21|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 13 at GitClient.cs:623 after waiting 3.34E-05s
+2016-06-13 14:41:56.1911|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 13 at GitClient.cs:623 after blocking 0.0119897s
+2016-06-13 14:41:56.2581|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 14:41:56.2611|INFO|thread: 1|NewCommitViewModel|Took 877ms to render file list for C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:41:56.2611|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 14 at RepositoryViewModel.cs:336
+2016-06-13 14:41:56.2611|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 15 at RepositoryViewModel.cs:336
+2016-06-13 14:41:56.2611|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 14 at RepositoryViewModel.cs:336 after waiting 0.0005146s
+2016-06-13 14:41:56.2611|INFO|thread:17|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 15 at RepositoryViewModel.cs:336 after waiting 0.0002113s
+2016-06-13 14:41:56.2611|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 14 at RepositoryViewModel.cs:336 after blocking 6.4E-06s
+2016-06-13 14:41:56.2901|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 15 at RepositoryViewModel.cs:336 after blocking 0.0241238s
+2016-06-13 14:41:56.3792|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 16 at GitClient.cs:497
+2016-06-13 14:41:56.3792|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 16 at GitClient.cs:497 after waiting 7.83E-05s
+2016-06-13 14:41:56.3792|INFO|thread:21|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 17 at GitClient.cs:497
+2016-06-13 14:41:56.3792|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 17 at GitClient.cs:497 after waiting 0.0008263s
+2016-06-13 14:41:56.6664|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 16 at GitClient.cs:497 after blocking 0.2870158s
+2016-06-13 14:41:56.6664|INFO|thread:21|AsyncReaderWriterLock|Released concurrent scheduler for operation: 17 at GitClient.cs:497 after blocking 0.2894432s
+2016-06-13 14:42:01.0608|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 18 at GitClient.cs:404
+2016-06-13 14:42:01.0608|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 18 at GitClient.cs:404 after waiting 9E-05s
+2016-06-13 14:42:01.0798|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 19 at GitClient.cs:404
+2016-06-13 14:42:01.0798|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 19 at GitClient.cs:404 after waiting 0.0050403s
+2016-06-13 14:42:01.1118|INFO|thread:20|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:42:01.1118|INFO|thread:20|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:42:01.1118|INFO|thread:20|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --name-status 1e7b9255be8921b80fb5cf4c9511a8151eff886a ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:42:01.1463|INFO|thread:20|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:42:01.1463|INFO|thread:20|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:42:01.1463|INFO|thread:20|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --numstat 1e7b9255be8921b80fb5cf4c9511a8151eff886a ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:42:01.1984|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:42:01.1984|INFO|thread:18|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:42:01.1984|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --name-status 1e7b9255be8921b80fb5cf4c9511a8151eff886a ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:42:01.2459|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:42:01.2459|INFO|thread:18|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:42:01.2459|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --numstat 1e7b9255be8921b80fb5cf4c9511a8151eff886a ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:42:01.5621|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 20 at ICommittedFileForklift.cs:59
+2016-06-13 14:42:01.5621|INFO|thread:20|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 20 at ICommittedFileForklift.cs:59 after waiting 0.0019332s
+2016-06-13 14:42:01.5971|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 21 at ICommittedFileForklift.cs:59
+2016-06-13 14:42:01.6151|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 21 at ICommittedFileForklift.cs:59 after waiting 0.0177656s
+2016-06-13 14:42:01.6151|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 18 at GitClient.cs:404 after blocking 0.5544665s
+2016-06-13 14:42:01.6277|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 22 at ICommittedFileForklift.cs:59
+2016-06-13 14:42:01.6372|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 22 at ICommittedFileForklift.cs:59 after waiting 0.0097542s
+2016-06-13 14:42:01.6372|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 23 at ICommittedFileForklift.cs:59
+2016-06-13 14:42:01.6752|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 19 at GitClient.cs:404 after blocking 0.5898803s
+2016-06-13 14:42:01.6752|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 23 at ICommittedFileForklift.cs:59 after waiting 0.0313769s
+2016-06-13 14:42:01.6847|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 21 at ICommittedFileForklift.cs:59 after blocking 0.0692428s
+2016-06-13 14:42:01.6847|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 22 at ICommittedFileForklift.cs:59 after blocking 0.0591305s
+2016-06-13 14:42:01.6972|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 20 at ICommittedFileForklift.cs:59 after blocking 0.133093s
+2016-06-13 14:42:01.7137|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 23 at ICommittedFileForklift.cs:59 after blocking 0.0385862s
+2016-06-13 14:42:05.5342|INFO|thread: 1|SelectedCommitViewModel|Took 4484ms to load files for commit 1e7b925 in repo C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:42:05.5342|INFO|thread: 1|SelectedCommitViewModel|Took 4455ms to load files for commit 1e7b925 in repo C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:43:01.0855|INFO|thread: 1|RepositoryHost|Log in from cache for login 'OgniG' to host 'https://api.github.com/' SUCCEEDED
+2016-06-13 14:43:01.1070|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 24 at BranchSynchronizer.cs:238
+2016-06-13 14:43:01.1070|INFO|thread:38|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 24 at BranchSynchronizer.cs:238 after waiting 0.0001049s
+2016-06-13 14:43:01.1926|INFO|thread:19|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:01.1926|INFO|thread:19|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:01.1926|INFO|thread:19|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:43:03.9949|INFO|thread:36|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:03.9949|INFO|thread:36|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:03.9949|INFO|thread:36|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'pull --progress --prune origin master ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:43:09.3505|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 25 at RepositoryModel.cs:596
+2016-06-13 14:43:09.3555|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 26 at GitClient.cs:290
+2016-06-13 14:43:09.3555|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 25 at RepositoryModel.cs:596 after waiting 0.0083816s
+2016-06-13 14:43:09.3555|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 26 at GitClient.cs:290 after waiting 0.0035841s
+2016-06-13 14:43:09.3555|INFO|thread: 1|BranchSynchronizer|Completing sync for C:\Users\Ogni\Documents\GitHub\ahsdrones - master
+2016-06-13 14:43:09.3555|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 27 at RepositoryViewModel.cs:336
+2016-06-13 14:43:09.3555|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 28 at GitClient.cs:201
+2016-06-13 14:43:09.3555|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 29 at RepositoryModel.cs:596
+2016-06-13 14:43:09.3555|INFO|thread: 1|BranchSynchronizer|Took 8261ms to sync repository C:\Users\Ogni\Documents\GitHub\ahsdrones - master
+2016-06-13 14:43:09.3730|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 25 at RepositoryModel.cs:596 after blocking 0.0142251s
+2016-06-13 14:43:09.3730|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 27 at RepositoryViewModel.cs:336 after waiting 0.010644s
+2016-06-13 14:43:09.3730|INFO|thread:41|AsyncReaderWriterLock|Released exclusive scheduler for operation: 24 at BranchSynchronizer.cs:238 after blocking 8.2717076s
+2016-06-13 14:43:09.3730|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 28 at GitClient.cs:201 after waiting 0.0158779s
+2016-06-13 14:43:09.3905|INFO|thread:38|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:09.3905|INFO|thread:38|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:09.3905|INFO|thread:38|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:43:09.3905|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 29 at RepositoryModel.cs:596 after waiting 0.0298078s
+2016-06-13 14:43:09.4255|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 28 at GitClient.cs:201 after blocking 0.0459868s
+2016-06-13 14:43:09.4370|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 27 at RepositoryViewModel.cs:336 after blocking 0.0639215s
+2016-06-13 14:43:09.4465|INFO|thread:39|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 30 at BranchSynchronizer.cs:126
+2016-06-13 14:43:09.4465|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 29 at RepositoryModel.cs:596 after blocking 0.0546926s
+2016-06-13 14:43:09.4465|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 30 at BranchSynchronizer.cs:126 after waiting 0.0037494s
+2016-06-13 14:43:09.4771|INFO|thread:39|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:43:09.4806|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 30 at BranchSynchronizer.cs:126 after blocking 0.0302297s
+2016-06-13 14:43:09.5631|INFO|thread:19|ConcurrentRepositoryConnection|Took 169ms to git status
+2016-06-13 14:43:09.5631|INFO|thread:19|ConcurrentRepositoryConnection|Took 169ms to git status and parse output
+2016-06-13 14:43:09.5811|INFO|thread:19|NewCommitViewModel|Took 225ms to load files for C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:43:09.5811|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 26 at GitClient.cs:290 after blocking 0.2221994s
+2016-06-13 14:43:09.5886|INFO|thread: 1|NewCommitViewModel|Took 7ms to render file list for C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:43:12.3645|INFO|thread:14|DashboardViewModel|Selected repository 'NeighborNinja/site'
+2016-06-13 14:43:12.3645|INFO|thread:14|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 31 at GitClient.cs:628
+2016-06-13 14:43:12.3645|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 31 at GitClient.cs:628 after waiting 5.13E-05s
+2016-06-13 14:43:12.3645|INFO|thread:14|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 32 at GitClient.cs:606
+2016-06-13 14:43:12.4330|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 31 at GitClient.cs:628 after blocking 0.0675418s
+2016-06-13 14:43:12.4330|INFO|thread:44|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 32 at GitClient.cs:606 after waiting 0.0674844s
+2016-06-13 14:43:12.6086|INFO|thread:44|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 33 at GitClient.cs:623
+2016-06-13 14:43:12.6572|INFO|thread:44|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 34 at GitClient.cs:224
+2016-06-13 14:43:12.6572|INFO|thread:44|DashboardViewModel|Took 292ms to Create RepositoryViewModel for location C:\Users\Ogni\Documents\GitHub\site
+2016-06-13 14:43:12.6572|INFO|thread:44|AsyncReaderWriterLock|Released exclusive scheduler for operation: 32 at GitClient.cs:606 after blocking 0.2244383s
+2016-06-13 14:43:12.6572|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 34 at GitClient.cs:224 after waiting 0.000531s
+2016-06-13 14:43:12.6572|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 33 at GitClient.cs:623 after waiting 0.049111s
+2016-06-13 14:43:12.6572|INFO|thread:42|GitClient|Loading commits for repo: C:\Users\Ogni\Documents\GitHub\site
+2016-06-13 14:43:12.6572|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 35 at RepositoryViewModel.cs:336
+2016-06-13 14:43:12.6572|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 35 at RepositoryViewModel.cs:336 after waiting 2.85E-05s
+2016-06-13 14:43:12.6572|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 33 at GitClient.cs:623 after blocking 0.0061115s
+2016-06-13 14:43:13.0647|INFO|thread:38|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 36 at GitClient.cs:201
+2016-06-13 14:43:13.0647|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 36 at GitClient.cs:201 after waiting 4.67E-05s
+2016-06-13 14:43:13.0647|INFO|thread:38|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 37 at RepositoryModel.cs:596
+2016-06-13 14:43:13.0647|INFO|thread:43|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 37 at RepositoryModel.cs:596 after waiting 0.000252s
+2016-06-13 14:43:13.0647|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 38 at RepositoryModel.cs:596
+2016-06-13 14:43:13.2568|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 39 at GitClient.cs:611
+2016-06-13 14:43:13.4680|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 35 at RepositoryViewModel.cs:336 after blocking 0.8040915s
+2016-06-13 14:43:13.4680|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 38 at RepositoryModel.cs:596 after waiting 0.4025306s
+2016-06-13 14:43:13.4680|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 40 at GitClient.cs:290
+2016-06-13 14:43:13.4680|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 37 at RepositoryModel.cs:596 after blocking 0.4058615s
+2016-06-13 14:43:13.4680|INFO|thread:43|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 39 at GitClient.cs:611 after waiting 0.2143374s
+2016-06-13 14:43:13.4830|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 41 at BranchesViewModel.cs:535
+2016-06-13 14:43:13.4830|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 42 at RepositoryViewModel.cs:336
+2016-06-13 14:43:13.8007|INFO|thread:43|AsyncReaderWriterLock|Released concurrent scheduler for operation: 39 at GitClient.cs:611 after blocking 0.3298434s
+2016-06-13 14:43:13.8007|INFO|thread:43|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 40 at GitClient.cs:290 after waiting 0.3301886s
+2016-06-13 14:43:13.8007|INFO|thread:41|AsyncReaderWriterLock|Released concurrent scheduler for operation: 38 at RepositoryModel.cs:596 after blocking 0.3377142s
+2016-06-13 14:43:13.8007|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 41 at BranchesViewModel.cs:535 after waiting 0.322709s
+2016-06-13 14:43:13.8252|INFO|thread:41|AsyncReaderWriterLock|Released concurrent scheduler for operation: 41 at BranchesViewModel.cs:535 after blocking 0.0191382s
+2016-06-13 14:43:13.8252|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 42 at RepositoryViewModel.cs:336 after waiting 0.3416393s
+2016-06-13 14:43:13.8252|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 36 at GitClient.cs:201 after blocking 0.7675115s
+2016-06-13 14:43:13.8252|INFO|thread:43|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:13.8252|INFO|thread:43|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:13.8252|INFO|thread:43|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\site\
+2016-06-13 14:43:14.1249|INFO|thread:42|ConcurrentRepositoryConnection|Loaded '5' commits for repo: C:\Users\Ogni\Documents\GitHub\site\.
+2016-06-13 14:43:14.1249|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 34 at GitClient.cs:224 after blocking 1.4681346s
+2016-06-13 14:43:14.7678|ERROR|thread:25|ComparisonGraph|JavaScript Alert from the comparison graph: http://github-app/: TypeError: Cannot read property 'selectCommit' of null
+2016-06-13 14:43:14.9259|INFO|thread:40|ConcurrentRepositoryConnection|Took 1086ms to git status
+2016-06-13 14:43:14.9259|INFO|thread:40|ConcurrentRepositoryConnection|Took 1086ms to git status and parse output
+2016-06-13 14:43:14.9259|INFO|thread:40|NewCommitViewModel|Took 1455ms to load files for C:\Users\Ogni\Documents\GitHub\site
+2016-06-13 14:43:14.9259|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 40 at GitClient.cs:290 after blocking 1.1258593s
+2016-06-13 14:43:14.9259|INFO|thread: 1|NewCommitViewModel|Took 1ms to render file list for C:\Users\Ogni\Documents\GitHub\site
+2016-06-13 14:43:14.9259|INFO|thread: 1|AsyncReaderWriterLock|Released concurrent scheduler for operation: 42 at RepositoryViewModel.cs:336 after blocking 1.1036854s
+2016-06-13 14:43:14.9259|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 43 at RepositoryViewModel.cs:336
+2016-06-13 14:43:14.9259|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 44 at RepositoryViewModel.cs:336
+2016-06-13 14:43:14.9259|INFO|thread:31|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 43 at RepositoryViewModel.cs:336 after waiting 0.0003424s
+2016-06-13 14:43:14.9259|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 44 at RepositoryViewModel.cs:336 after waiting 2.28E-05s
+2016-06-13 14:43:14.9259|INFO|thread:31|AsyncReaderWriterLock|Released concurrent scheduler for operation: 43 at RepositoryViewModel.cs:336 after blocking 1.1E-06s
+2016-06-13 14:43:15.0335|INFO|thread:36|AsyncReaderWriterLock|Released concurrent scheduler for operation: 44 at RepositoryViewModel.cs:336 after blocking 0.1037675s
+2016-06-13 14:43:15.1626|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 45 at GitClient.cs:404
+2016-06-13 14:43:15.1626|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 45 at GitClient.cs:404 after waiting 0.001157s
+2016-06-13 14:43:15.1626|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 46 at GitClient.cs:404
+2016-06-13 14:43:15.1626|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 46 at GitClient.cs:404 after waiting 0.0001885s
+2016-06-13 14:43:15.2161|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:15.2161|INFO|thread:42|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:15.2161|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --name-status cec30173fb13b27f805f233576e41b9b94d796a7 ', Working Directory: C:\Users\Ogni\Documents\GitHub\site\
+2016-06-13 14:43:15.2466|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:15.2466|INFO|thread:42|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:15.2466|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --numstat cec30173fb13b27f805f233576e41b9b94d796a7 ', Working Directory: C:\Users\Ogni\Documents\GitHub\site\
+2016-06-13 14:43:15.2612|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:15.2612|INFO|thread:27|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:15.2612|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --name-status cec30173fb13b27f805f233576e41b9b94d796a7 ', Working Directory: C:\Users\Ogni\Documents\GitHub\site\
+2016-06-13 14:43:15.2982|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:15.2982|INFO|thread:27|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:15.2982|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --numstat cec30173fb13b27f805f233576e41b9b94d796a7 ', Working Directory: C:\Users\Ogni\Documents\GitHub\site\
+2016-06-13 14:43:15.6499|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 47 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.6499|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 47 at ICommittedFileForklift.cs:59 after waiting 0.0075514s
+2016-06-13 14:43:15.6499|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 48 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.6499|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 48 at ICommittedFileForklift.cs:59 after waiting 0.0010567s
+2016-06-13 14:43:15.6739|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 47 at ICommittedFileForklift.cs:59 after blocking 0.0160281s
+2016-06-13 14:43:15.6834|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 49 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.6834|INFO|thread:52|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 49 at ICommittedFileForklift.cs:59 after waiting 0.0001132s
+2016-06-13 14:43:15.6834|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 50 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7019|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 51 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7215|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 52 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7290|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 53 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7290|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 54 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7435|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 55 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7435|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 56 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7435|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 57 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7655|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 58 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7655|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 59 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7885|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 60 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.7965|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 61 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.8125|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 62 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.8125|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 63 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.8285|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 64 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.8495|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 65 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.8575|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 66 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.8575|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 67 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:15.8731|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 68 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:16.0157|INFO|thread:27|AsyncReaderWriterLock|Released concurrent scheduler for operation: 45 at GitClient.cs:404 after blocking 0.8520929s
+2016-06-13 14:43:16.0157|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 50 at ICommittedFileForklift.cs:59 after waiting 0.3219514s
+2016-06-13 14:43:16.0157|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 46 at GitClient.cs:404 after blocking 0.8557941s
+2016-06-13 14:43:16.0157|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 51 at ICommittedFileForklift.cs:59 after waiting 0.3182901s
+2016-06-13 14:43:16.0392|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 50 at ICommittedFileForklift.cs:59 after blocking 0.0230633s
+2016-06-13 14:43:16.0392|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 52 at ICommittedFileForklift.cs:59 after waiting 0.3175333s
+2016-06-13 14:43:16.1267|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 53 at ICommittedFileForklift.cs:59 after waiting 0.3973822s
+2016-06-13 14:43:16.1267|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 48 at ICommittedFileForklift.cs:59 after blocking 0.4672949s
+2016-06-13 14:43:16.1407|INFO|thread:52|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 54 at ICommittedFileForklift.cs:59 after waiting 0.4045904s
+2016-06-13 14:43:16.1407|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 49 at ICommittedFileForklift.cs:59 after blocking 0.457097s
+2016-06-13 14:43:16.1502|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 51 at ICommittedFileForklift.cs:59 after blocking 0.1297745s
+2016-06-13 14:43:16.1502|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 55 at ICommittedFileForklift.cs:59 after waiting 0.4068061s
+2016-06-13 14:43:16.1988|INFO|thread: 1|SelectedCommitViewModel|Took 1036ms to load files for commit cec3017 in repo C:\Users\Ogni\Documents\GitHub\site
+2016-06-13 14:43:16.1988|INFO|thread: 1|SelectedCommitViewModel|Took 1035ms to load files for commit cec3017 in repo C:\Users\Ogni\Documents\GitHub\site
+2016-06-13 14:43:16.1988|INFO|thread:52|AsyncReaderWriterLock|Released concurrent scheduler for operation: 54 at ICommittedFileForklift.cs:59 after blocking 0.0626272s
+2016-06-13 14:43:16.1988|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 55 at ICommittedFileForklift.cs:59 after blocking 0.053309s
+2016-06-13 14:43:16.1988|INFO|thread:52|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 57 at ICommittedFileForklift.cs:59 after waiting 0.4463207s
+2016-06-13 14:43:16.1988|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 56 at ICommittedFileForklift.cs:59 after waiting 0.4533126s
+2016-06-13 14:43:16.1988|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 52 at ICommittedFileForklift.cs:59 after blocking 0.1650336s
+2016-06-13 14:43:16.1988|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 58 at ICommittedFileForklift.cs:59 after waiting 0.438751s
+2016-06-13 14:43:16.1988|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 69 at GitClient.cs:497
+2016-06-13 14:43:16.1988|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 70 at GitClient.cs:497
+2016-06-13 14:43:16.2123|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 53 at ICommittedFileForklift.cs:59 after blocking 0.0855351s
+2016-06-13 14:43:16.2123|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 59 at ICommittedFileForklift.cs:59 after waiting 0.4393189s
+2016-06-13 14:43:16.4014|INFO|thread:52|AsyncReaderWriterLock|Released concurrent scheduler for operation: 57 at ICommittedFileForklift.cs:59 after blocking 0.1977052s
+2016-06-13 14:43:16.4014|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 59 at ICommittedFileForklift.cs:59 after blocking 0.1890013s
+2016-06-13 14:43:16.4014|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 60 at ICommittedFileForklift.cs:59 after waiting 0.6128938s
+2016-06-13 14:43:16.4014|INFO|thread:52|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 61 at ICommittedFileForklift.cs:59 after waiting 0.6046277s
+2016-06-13 14:43:16.4014|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 58 at ICommittedFileForklift.cs:59 after blocking 0.1973814s
+2016-06-13 14:43:16.4014|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 62 at ICommittedFileForklift.cs:59 after waiting 0.5891109s
+2016-06-13 14:43:16.4014|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 56 at ICommittedFileForklift.cs:59 after blocking 0.1981952s
+2016-06-13 14:43:16.4014|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 63 at ICommittedFileForklift.cs:59 after waiting 0.5808806s
+2016-06-13 14:43:16.4219|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 63 at ICommittedFileForklift.cs:59 after blocking 0.0197897s
+2016-06-13 14:43:16.4219|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 64 at ICommittedFileForklift.cs:59 after waiting 0.5930911s
+2016-06-13 14:43:16.4219|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 60 at ICommittedFileForklift.cs:59 after blocking 0.0286887s
+2016-06-13 14:43:16.4219|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 65 at ICommittedFileForklift.cs:59 after waiting 0.580589s
+2016-06-13 14:43:16.4444|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 64 at ICommittedFileForklift.cs:59 after blocking 0.0228922s
+2016-06-13 14:43:16.4444|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 66 at ICommittedFileForklift.cs:59 after waiting 0.5873646s
+2016-06-13 14:43:16.4539|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 65 at ICommittedFileForklift.cs:59 after blocking 0.0239155s
+2016-06-13 14:43:16.4539|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 67 at ICommittedFileForklift.cs:59 after waiting 0.5890756s
+2016-06-13 14:43:16.4625|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 66 at ICommittedFileForklift.cs:59 after blocking 0.0175128s
+2016-06-13 14:43:16.4625|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 68 at ICommittedFileForklift.cs:59 after waiting 0.5893101s
+2016-06-13 14:43:16.4625|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 67 at ICommittedFileForklift.cs:59 after blocking 0.0100085s
+2016-06-13 14:43:16.4625|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 69 at GitClient.cs:497 after waiting 0.2595126s
+2016-06-13 14:43:16.4625|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 68 at ICommittedFileForklift.cs:59 after blocking 0.0085237s
+2016-06-13 14:43:16.4625|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 70 at GitClient.cs:497 after waiting 0.265918s
+2016-06-13 14:43:16.4905|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 69 at GitClient.cs:497 after blocking 0.0260617s
+2016-06-13 14:43:16.4955|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 70 at GitClient.cs:497 after blocking 0.0244215s
+2016-06-13 14:43:16.5505|INFO|thread:52|AsyncReaderWriterLock|Released concurrent scheduler for operation: 61 at ICommittedFileForklift.cs:59 after blocking 0.1492887s
+2016-06-13 14:43:17.5422|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 62 at ICommittedFileForklift.cs:59 after blocking 1.1403863s
+2016-06-13 14:43:19.3088|INFO|thread:14|DashboardViewModel|Selected repository 'varadn/ahsdrones'
+2016-06-13 14:43:19.3088|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 71 at GitClient.cs:201
+2016-06-13 14:43:19.3088|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 71 at GitClient.cs:201 after waiting 2.88E-05s
+2016-06-13 14:43:19.3088|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 72 at RepositoryModel.cs:596
+2016-06-13 14:43:19.3088|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 72 at RepositoryModel.cs:596 after waiting 0.0004519s
+2016-06-13 14:43:19.3288|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 73 at GitClient.cs:290
+2016-06-13 14:43:19.3288|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 74 at BranchSynchronizer.cs:126
+2016-06-13 14:43:19.3288|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 73 at GitClient.cs:290 after waiting 0.0002459s
+2016-06-13 14:43:19.3288|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 72 at RepositoryModel.cs:596 after blocking 0.0130358s
+2016-06-13 14:43:19.3288|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 74 at BranchSynchronizer.cs:126 after waiting 0.0001075s
+2016-06-13 14:43:19.3378|INFO|thread:17|AsyncReaderWriterLock|Released concurrent scheduler for operation: 71 at GitClient.cs:201 after blocking 0.0225209s
+2016-06-13 14:43:19.3378|INFO|thread:51|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:43:19.3378|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 74 at BranchSynchronizer.cs:126 after blocking 0.0097428s
+2016-06-13 14:43:19.3648|INFO|thread:44|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:19.3648|INFO|thread:44|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:19.3648|INFO|thread:44|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\ahsdrones\
+2016-06-13 14:43:19.4814|INFO|thread:44|ConcurrentRepositoryConnection|Took 113ms to git status
+2016-06-13 14:43:19.4814|INFO|thread:44|ConcurrentRepositoryConnection|Took 113ms to git status and parse output
+2016-06-13 14:43:19.4814|INFO|thread:44|NewCommitViewModel|Took 156ms to load files for C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:43:19.4814|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 73 at GitClient.cs:290 after blocking 0.1557161s
+2016-06-13 14:43:19.6555|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 75 at BranchSynchronizer.cs:126
+2016-06-13 14:43:19.6555|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 75 at BranchSynchronizer.cs:126 after waiting 3.53E-05s
+2016-06-13 14:43:19.6555|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 76 at GitClient.cs:611
+2016-06-13 14:43:19.6555|INFO|thread:43|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 76 at GitClient.cs:611 after waiting 2.96E-05s
+2016-06-13 14:43:19.6555|INFO|thread:36|AsyncReaderWriterLock|Released concurrent scheduler for operation: 76 at GitClient.cs:611 after blocking 0.0060549s
+2016-06-13 14:43:19.6555|INFO|thread:51|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:43:19.6655|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 75 at BranchSynchronizer.cs:126 after blocking 0.0100256s
+2016-06-13 14:43:19.6995|INFO|thread:39|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 77 at GitClient.cs:497
+2016-06-13 14:43:19.6995|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 77 at GitClient.cs:497 after waiting 3.11E-05s
+2016-06-13 14:43:19.6995|INFO|thread: 9|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 78 at GitClient.cs:497
+2016-06-13 14:43:19.6995|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 78 at GitClient.cs:497 after waiting 3.11E-05s
+2016-06-13 14:43:19.7656|INFO|thread:27|AsyncReaderWriterLock|Released concurrent scheduler for operation: 77 at GitClient.cs:497 after blocking 0.0657819s
+2016-06-13 14:43:19.7761|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 78 at GitClient.cs:497 after blocking 0.0701722s
+2016-06-13 14:43:19.9917|INFO|thread: 1|NewCommitViewModel|Took 507ms to render file list for C:\Users\Ogni\Documents\GitHub\ahsdrones
+2016-06-13 14:43:19.9917|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 79 at RepositoryViewModel.cs:336
+2016-06-13 14:43:19.9917|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 79 at RepositoryViewModel.cs:336 after waiting 3.68E-05s
+2016-06-13 14:43:20.0122|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 79 at RepositoryViewModel.cs:336 after blocking 0.0194472s
+2016-06-13 14:43:28.4274|INFO|thread: 1|DashboardViewModel|Received request to clone: 'https://github.com/srutivutukury/AST-06-Stage-1.git'
+2016-06-13 14:43:31.7509|INFO|thread: 1|RepositoryModel|Cloning repo https://github.com/srutivutukury/AST-06-Stage-1.git
+2016-06-13 14:43:31.7629|INFO|thread: 1|GitLfsSmudgeTail|Setting Git LFS smudge progress environment variable
+2016-06-13 14:43:31.7629|INFO|thread: 1|RepositoryModel|Cloning 'https://github.com/srutivutukury/AST-06-Stage-1.git' to 'AST-06-Stage-1' in directory 'C:\Users\Ogni\Documents\GitHub
+2016-06-13 14:43:31.7975|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:31.7975|INFO|thread: 1|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:31.7975|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'clone --progress --recursive  --  "https://github.com/srutivutukury/AST-06-Stage-1.git" "AST-06-Stage-1" ', Working Directory: C:\Users\Ogni\Documents\GitHub
+2016-06-13 14:43:31.8090|INFO|thread:14|DashboardViewModel|Selected repository 'srutivutukury/AST-06-Stage-1'
+2016-06-13 14:43:32.0836|INFO|thread:14|DashboardViewModel|Took 0ms to Create RepositoryViewModel for location C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:43:32.7171|INFO|thread: 9|BackgroundFetcher|Got a refresh period for srutivutukury/AST-06-Stage-1 of 300 seconds
+2016-06-13 14:43:32.7171|INFO|thread: 9|BackgroundFetcher|Added a delay for srutivutukury/AST-06-Stage-1 of 6351 milliseconds
+2016-06-13 14:43:34.4192|ERROR|thread:25|ComparisonGraph|JavaScript Alert from the comparison graph: http://github-app/: TypeError: Cannot read property 'selectCommit' of null
+2016-06-13 14:43:35.6155|INFO|thread:40|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 80 at GitClient.cs:224
+2016-06-13 14:43:35.6155|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 80 at GitClient.cs:224 after waiting 0.00165s
+2016-06-13 14:43:35.6155|INFO|thread:40|GitLfsSmudgeTail|Cleaning up Git LFS smudge progress environment variable
+2016-06-13 14:43:35.6235|INFO|thread:48|GitClient|Loading commits for repo: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:43:35.6235|INFO|thread:48|ConcurrentRepositoryConnection|Loaded '1' commits for repo: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.
+2016-06-13 14:43:35.6235|INFO|thread:48|AsyncReaderWriterLock|Released concurrent scheduler for operation: 80 at GitClient.cs:224 after blocking 0.0106372s
+2016-06-13 14:43:35.6365|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 81 at GitClient.cs:623
+2016-06-13 14:43:35.6365|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 82 at GitClient.cs:611
+2016-06-13 14:43:35.6365|INFO|thread: 1|DashboardViewModel|Selected repository 'srutivutukury/AST-06-Stage-1'
+2016-06-13 14:43:35.6365|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 81 at GitClient.cs:623 after waiting 0.0035685s
+2016-06-13 14:43:35.6365|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 82 at GitClient.cs:611 after waiting 0.0034997s
+2016-06-13 14:43:35.6365|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 83 at GitClient.cs:201
+2016-06-13 14:43:35.6365|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 84 at RepositoryModel.cs:596
+2016-06-13 14:43:35.6365|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 82 at GitClient.cs:611 after blocking 0.0067079s
+2016-06-13 14:43:35.6365|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 83 at GitClient.cs:201 after waiting 0.0045884s
+2016-06-13 14:43:35.6365|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 84 at RepositoryModel.cs:596 after waiting 0.0040847s
+2016-06-13 14:43:35.6505|INFO|thread: 9|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 85 at RepositoryViewModel.cs:336
+2016-06-13 14:43:35.6505|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 81 at GitClient.cs:623 after blocking 0.0107543s
+2016-06-13 14:43:35.6505|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 85 at RepositoryViewModel.cs:336 after waiting 8.02E-05s
+2016-06-13 14:43:35.6825|INFO|thread: 9|AsyncReaderWriterLock|Released concurrent scheduler for operation: 85 at RepositoryViewModel.cs:336 after blocking 0.0315871s
+2016-06-13 14:43:35.6825|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 86 at BranchesViewModel.cs:535
+2016-06-13 14:43:35.6825|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 87 at RepositoryViewModel.cs:336
+2016-06-13 14:43:35.6825|INFO|thread:52|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 88 at GitClient.cs:290
+2016-06-13 14:43:35.6825|INFO|thread:52|AsyncReaderWriterLock|Released concurrent scheduler for operation: 84 at RepositoryModel.cs:596 after blocking 0.0381293s
+2016-06-13 14:43:35.6825|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 86 at BranchesViewModel.cs:535 after waiting 0.0007898s
+2016-06-13 14:43:35.6825|INFO|thread:52|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 87 at RepositoryViewModel.cs:336 after waiting 0.0006199s
+2016-06-13 14:43:35.6825|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 88 at GitClient.cs:290 after waiting 0.0015212s
+2016-06-13 14:43:35.6825|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 83 at GitClient.cs:201 after blocking 0.0397247s
+2016-06-13 14:43:35.7211|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 87 at RepositoryViewModel.cs:336 after blocking 0.0356673s
+2016-06-13 14:43:35.7301|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 86 at BranchesViewModel.cs:535 after blocking 0.0446894s
+2016-06-13 14:43:35.7771|INFO|thread:39|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:35.7771|INFO|thread:39|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:35.7771|INFO|thread:39|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:43:35.8001|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 89 at GitClient.cs:404
+2016-06-13 14:43:35.8001|INFO|thread:52|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 89 at GitClient.cs:404 after waiting 3.95E-05s
+2016-06-13 14:43:35.8001|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 90 at GitClient.cs:404
+2016-06-13 14:43:35.8176|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 90 at GitClient.cs:404 after waiting 0.0152925s
+2016-06-13 14:43:35.8326|INFO|thread:40|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:35.8326|INFO|thread:40|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:35.8326|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --name-status e1e5910e011c4371386ff0108b4662dc748e14ff ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:43:35.8496|INFO|thread:50|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:35.8496|INFO|thread:50|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:35.8496|INFO|thread:50|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --name-status e1e5910e011c4371386ff0108b4662dc748e14ff ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:43:35.8762|INFO|thread:40|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:35.8762|INFO|thread:40|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:35.8762|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --numstat e1e5910e011c4371386ff0108b4662dc748e14ff ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:43:35.8912|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 91 at ICommittedFileForklift.cs:59
+2016-06-13 14:43:35.8912|INFO|thread:50|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:43:35.8912|INFO|thread:50|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:43:35.8912|INFO|thread:50|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'diff-tree --root -m -r -z --numstat e1e5910e011c4371386ff0108b4662dc748e14ff ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:43:36.1493|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 91 at ICommittedFileForklift.cs:59 after waiting 0.2580355s
+2016-06-13 14:43:36.1598|INFO|thread:48|ConcurrentRepositoryConnection|Took 377ms to git status
+2016-06-13 14:43:36.1598|INFO|thread:48|ConcurrentRepositoryConnection|Took 377ms to git status and parse output
+2016-06-13 14:43:36.1664|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 91 at ICommittedFileForklift.cs:59 after blocking 0.0169259s
+2016-06-13 14:43:36.1819|INFO|thread:48|NewCommitViewModel|Took 496ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:43:36.1819|INFO|thread:48|AsyncReaderWriterLock|Released concurrent scheduler for operation: 88 at GitClient.cs:290 after blocking 0.4953173s
+2016-06-13 14:43:36.1819|INFO|thread: 1|NewCommitViewModel|Took 5ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:43:36.1819|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 92 at RepositoryViewModel.cs:336
+2016-06-13 14:43:36.1974|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 92 at RepositoryViewModel.cs:336 after waiting 0.0139043s
+2016-06-13 14:43:36.2149|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 89 at GitClient.cs:404 after blocking 0.4146092s
+2016-06-13 14:43:36.2149|INFO|thread: 1|SelectedCommitViewModel|Took 415ms to load files for commit e1e5910 in repo C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:43:36.2149|INFO|thread:41|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 93 at GitClient.cs:497
+2016-06-13 14:43:36.2149|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 93 at GitClient.cs:497 after waiting 0.0001102s
+2016-06-13 14:43:36.2149|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 92 at RepositoryViewModel.cs:336 after blocking 0.0202732s
+2016-06-13 14:43:36.2589|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 90 at GitClient.cs:404 after blocking 0.4415616s
+2016-06-13 14:43:36.2589|INFO|thread:41|AsyncReaderWriterLock|Released concurrent scheduler for operation: 93 at GitClient.cs:497 after blocking 0.0536979s
+2016-06-13 14:43:36.2889|INFO|thread: 1|SelectedCommitViewModel|Took 487ms to load files for commit e1e5910 in repo C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:43:36.2924|INFO|thread:41|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 94 at GitClient.cs:497
+2016-06-13 14:43:36.2924|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 94 at GitClient.cs:497 after waiting 3.8E-05s
+2016-06-13 14:43:36.3245|INFO|thread:44|AsyncReaderWriterLock|Released concurrent scheduler for operation: 94 at GitClient.cs:497 after blocking 0.0320611s
+2016-06-13 14:44:09.6422|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 95 at GitClient.cs:201
+2016-06-13 14:44:09.6422|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 95 at GitClient.cs:201 after waiting 3.64E-05s
+2016-06-13 14:44:09.6422|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 96 at RepositoryModel.cs:596
+2016-06-13 14:44:09.6508|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 96 at RepositoryModel.cs:596 after waiting 0.0077065s
+2016-06-13 14:44:09.6673|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 95 at GitClient.cs:201 after blocking 0.0248472s
+2016-06-13 14:44:09.6838|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 97 at GitClient.cs:290
+2016-06-13 14:44:09.6838|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 98 at BranchSynchronizer.cs:126
+2016-06-13 14:44:09.6838|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 96 at RepositoryModel.cs:596 after blocking 0.0298298s
+2016-06-13 14:44:09.6838|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 97 at GitClient.cs:290 after waiting 0.0006538s
+2016-06-13 14:44:09.6838|INFO|thread: 9|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 98 at BranchSynchronizer.cs:126 after waiting 0.0011061s
+2016-06-13 14:44:09.6838|INFO|thread:41|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:44:09.6838|INFO|thread:41|AsyncReaderWriterLock|Released concurrent scheduler for operation: 98 at BranchSynchronizer.cs:126 after blocking 0.0101598s
+2016-06-13 14:44:09.7373|INFO|thread:38|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:44:09.7373|INFO|thread:38|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:44:09.7373|INFO|thread:38|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:44:09.8469|INFO|thread:49|ConcurrentRepositoryConnection|Took 106ms to git status
+2016-06-13 14:44:09.8469|INFO|thread:49|ConcurrentRepositoryConnection|Took 106ms to git status and parse output
+2016-06-13 14:44:09.8469|INFO|thread:49|NewCommitViewModel|Took 164ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:44:09.8469|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 97 at GitClient.cs:290 after blocking 0.1641647s
+2016-06-13 14:44:09.8469|INFO|thread: 1|NewCommitViewModel|Took 1ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:44:09.8469|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 99 at RepositoryViewModel.cs:336
+2016-06-13 14:44:09.8469|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 99 at RepositoryViewModel.cs:336 after waiting 0.0010042s
+2016-06-13 14:44:09.8739|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 99 at RepositoryViewModel.cs:336 after blocking 0.0219222s
+2016-06-13 14:48:38.7205|INFO|thread:64|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 100 at BranchSynchronizer.cs:160
+2016-06-13 14:48:38.7205|INFO|thread:64|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 100 at BranchSynchronizer.cs:160 after waiting 0.001631s
+2016-06-13 14:48:38.7681|INFO|thread:64|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:48:38.7681|INFO|thread:64|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:48:38.7681|INFO|thread:64|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:48:39.2884|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 101 at GitClient.cs:623
+2016-06-13 14:48:39.2884|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 101 at GitClient.cs:623 after waiting 3.53E-05s
+2016-06-13 14:48:39.2964|INFO|thread:56|AsyncReaderWriterLock|Released concurrent scheduler for operation: 101 at GitClient.cs:623 after blocking 0.0074944s
+2016-06-13 14:48:39.2964|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 14:48:39.4065|INFO|thread:56|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 14:48:39.4065|INFO|thread:56|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 19440 milliseconds
+2016-06-13 14:48:40.1870|INFO|thread:68|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 102 at GitClient.cs:201
+2016-06-13 14:48:40.1870|INFO|thread:56|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 102 at GitClient.cs:201 after waiting 3.72E-05s
+2016-06-13 14:48:40.1870|INFO|thread:68|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 103 at RepositoryModel.cs:596
+2016-06-13 14:48:40.1870|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 103 at RepositoryModel.cs:596 after waiting 1.97E-05s
+2016-06-13 14:48:40.1870|INFO|thread:68|AsyncReaderWriterLock|Released concurrent scheduler for operation: 100 at BranchSynchronizer.cs:160 after blocking 1.465636s
+2016-06-13 14:48:40.1870|INFO|thread:65|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 104 at GitClient.cs:290
+2016-06-13 14:48:40.1870|INFO|thread:66|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 104 at GitClient.cs:290 after waiting 3.57E-05s
+2016-06-13 14:48:40.1870|INFO|thread:65|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 105 at BranchSynchronizer.cs:126
+2016-06-13 14:48:40.1965|INFO|thread:65|AsyncReaderWriterLock|Released concurrent scheduler for operation: 103 at RepositoryModel.cs:596 after blocking 0.008767s
+2016-06-13 14:48:40.1965|INFO|thread:65|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 105 at BranchSynchronizer.cs:126 after waiting 0.0002242s
+2016-06-13 14:48:40.2145|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 102 at GitClient.cs:201 after blocking 0.0272465s
+2016-06-13 14:48:40.2145|INFO|thread:65|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:48:40.2145|INFO|thread:65|AsyncReaderWriterLock|Released concurrent scheduler for operation: 105 at BranchSynchronizer.cs:126 after blocking 0.0195217s
+2016-06-13 14:48:40.2305|INFO|thread:67|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:48:40.2305|INFO|thread:67|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:48:40.2305|INFO|thread:67|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:48:40.3061|INFO|thread:63|ConcurrentRepositoryConnection|Took 70ms to git status
+2016-06-13 14:48:40.3061|INFO|thread:63|ConcurrentRepositoryConnection|Took 70ms to git status and parse output
+2016-06-13 14:48:40.3061|INFO|thread:63|NewCommitViewModel|Took 110ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:48:40.3061|INFO|thread:63|AsyncReaderWriterLock|Released concurrent scheduler for operation: 104 at GitClient.cs:290 after blocking 0.1103451s
+2016-06-13 14:48:40.3061|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:48:40.3061|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 106 at RepositoryViewModel.cs:336
+2016-06-13 14:48:40.3061|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 106 at RepositoryViewModel.cs:336 after waiting 2.77E-05s
+2016-06-13 14:48:40.3231|INFO|thread:68|AsyncReaderWriterLock|Released concurrent scheduler for operation: 106 at RepositoryViewModel.cs:336 after blocking 0.0156631s
+2016-06-13 14:53:23.5269|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 107 at GitClient.cs:201
+2016-06-13 14:53:23.5269|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 107 at GitClient.cs:201 after waiting 5.09E-05s
+2016-06-13 14:53:23.5269|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 108 at RepositoryModel.cs:596
+2016-06-13 14:53:23.5269|INFO|thread:56|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 108 at RepositoryModel.cs:596 after waiting 2.05E-05s
+2016-06-13 14:53:23.5949|INFO|thread:68|AsyncReaderWriterLock|Released concurrent scheduler for operation: 107 at GitClient.cs:201 after blocking 0.0677638s
+2016-06-13 14:53:23.6034|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 109 at GitClient.cs:290
+2016-06-13 14:53:23.6034|INFO|thread:65|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 109 at GitClient.cs:290 after waiting 3.76E-05s
+2016-06-13 14:53:23.6034|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 110 at BranchSynchronizer.cs:126
+2016-06-13 14:53:23.6034|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 110 at BranchSynchronizer.cs:126 after waiting 2.05E-05s
+2016-06-13 14:53:23.6034|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 108 at RepositoryModel.cs:596 after blocking 0.0765666s
+2016-06-13 14:53:23.6034|INFO|thread:56|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:53:23.6034|INFO|thread:56|AsyncReaderWriterLock|Released concurrent scheduler for operation: 110 at BranchSynchronizer.cs:126 after blocking 0.0099484s
+2016-06-13 14:53:23.6324|INFO|thread:68|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:53:23.6324|INFO|thread:68|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:53:23.6324|INFO|thread:68|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:53:23.7210|INFO|thread:61|ConcurrentRepositoryConnection|Took 85ms to git status
+2016-06-13 14:53:23.7210|INFO|thread:61|ConcurrentRepositoryConnection|Took 85ms to git status and parse output
+2016-06-13 14:53:23.7210|INFO|thread:61|NewCommitViewModel|Took 117ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:53:23.7210|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 109 at GitClient.cs:290 after blocking 0.1177871s
+2016-06-13 14:53:23.7210|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:53:23.7210|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 111 at RepositoryViewModel.cs:336
+2016-06-13 14:53:23.7210|INFO|thread:56|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 111 at RepositoryViewModel.cs:336 after waiting 3.53E-05s
+2016-06-13 14:53:23.7420|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 111 at RepositoryViewModel.cs:336 after blocking 0.0189139s
+2016-06-13 14:53:58.1680|INFO|thread:58|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 112 at BranchSynchronizer.cs:160
+2016-06-13 14:53:58.1680|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 112 at BranchSynchronizer.cs:160 after waiting 0.0038832s
+2016-06-13 14:53:58.2031|INFO|thread:65|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:53:58.2031|INFO|thread:65|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:53:58.2031|INFO|thread:65|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:53:58.5228|INFO|thread:30|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 14:53:58.5228|INFO|thread:30|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 7230 milliseconds
+2016-06-13 14:53:58.5248|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 14:53:58.5403|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 113 at GitClient.cs:623
+2016-06-13 14:53:58.5403|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 113 at GitClient.cs:623 after waiting 2.69E-05s
+2016-06-13 14:53:58.5403|INFO|thread:56|AsyncReaderWriterLock|Released concurrent scheduler for operation: 113 at GitClient.cs:623 after blocking 0.0053935s
+2016-06-13 14:53:59.2222|INFO|thread:57|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 114 at GitClient.cs:201
+2016-06-13 14:53:59.2222|INFO|thread:65|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 114 at GitClient.cs:201 after waiting 0.0001611s
+2016-06-13 14:53:59.2222|INFO|thread:57|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 115 at RepositoryModel.cs:596
+2016-06-13 14:53:59.2222|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 115 at RepositoryModel.cs:596 after waiting 8.02E-05s
+2016-06-13 14:53:59.2222|INFO|thread:57|AsyncReaderWriterLock|Released concurrent scheduler for operation: 112 at BranchSynchronizer.cs:160 after blocking 1.0514297s
+2016-06-13 14:53:59.2337|INFO|thread:59|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 116 at GitClient.cs:290
+2016-06-13 14:53:59.2337|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 116 at GitClient.cs:290 after waiting 3.45E-05s
+2016-06-13 14:53:59.2337|INFO|thread:59|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 117 at BranchSynchronizer.cs:126
+2016-06-13 14:53:59.2337|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 115 at RepositoryModel.cs:596 after blocking 0.0106866s
+2016-06-13 14:53:59.2337|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 117 at BranchSynchronizer.cs:126 after waiting 0.0001334s
+2016-06-13 14:53:59.2453|INFO|thread:65|AsyncReaderWriterLock|Released concurrent scheduler for operation: 114 at GitClient.cs:201 after blocking 0.0224988s
+2016-06-13 14:53:59.2453|INFO|thread:53|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:53:59.2453|INFO|thread:53|AsyncReaderWriterLock|Released concurrent scheduler for operation: 117 at BranchSynchronizer.cs:126 after blocking 0.0135942s
+2016-06-13 14:53:59.2628|INFO|thread:58|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:53:59.2628|INFO|thread:58|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:53:59.2628|INFO|thread:58|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:53:59.3428|INFO|thread:68|ConcurrentRepositoryConnection|Took 76ms to git status
+2016-06-13 14:53:59.3428|INFO|thread:68|ConcurrentRepositoryConnection|Took 76ms to git status and parse output
+2016-06-13 14:53:59.3428|INFO|thread:68|NewCommitViewModel|Took 115ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:53:59.3428|INFO|thread:68|AsyncReaderWriterLock|Released concurrent scheduler for operation: 116 at GitClient.cs:290 after blocking 0.1150278s
+2016-06-13 14:53:59.3428|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:53:59.3428|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 118 at RepositoryViewModel.cs:336
+2016-06-13 14:53:59.3428|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 118 at RepositoryViewModel.cs:336 after waiting 1.97E-05s
+2016-06-13 14:53:59.3668|INFO|thread:57|AsyncReaderWriterLock|Released concurrent scheduler for operation: 118 at RepositoryViewModel.cs:336 after blocking 0.0170437s
+2016-06-13 14:59:05.4003|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 119 at BranchSynchronizer.cs:160
+2016-06-13 14:59:05.4003|INFO|thread:53|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 119 at BranchSynchronizer.cs:160 after waiting 3.53E-05s
+2016-06-13 14:59:05.4338|INFO|thread:58|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:59:05.4338|INFO|thread:58|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:59:05.4338|INFO|thread:58|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:59:05.7515|INFO|thread:58|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 14:59:05.7515|INFO|thread:58|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 4712 milliseconds
+2016-06-13 14:59:05.7665|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 14:59:05.7900|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 120 at GitClient.cs:623
+2016-06-13 14:59:05.7920|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 120 at GitClient.cs:623 after waiting 0.002151s
+2016-06-13 14:59:05.7920|INFO|thread:58|AsyncReaderWriterLock|Released concurrent scheduler for operation: 120 at GitClient.cs:623 after blocking 0.0073245s
+2016-06-13 14:59:06.5160|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 121 at GitClient.cs:201
+2016-06-13 14:59:06.5160|INFO|thread:65|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 121 at GitClient.cs:201 after waiting 4.02E-05s
+2016-06-13 14:59:06.5160|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 122 at RepositoryModel.cs:596
+2016-06-13 14:59:06.5160|INFO|thread:53|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 122 at RepositoryModel.cs:596 after waiting 5.81E-05s
+2016-06-13 14:59:06.5160|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 119 at BranchSynchronizer.cs:160 after blocking 1.1166509s
+2016-06-13 14:59:06.5310|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 123 at GitClient.cs:290
+2016-06-13 14:59:06.5310|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 123 at GitClient.cs:290 after waiting 3.07E-05s
+2016-06-13 14:59:06.5310|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 124 at BranchSynchronizer.cs:126
+2016-06-13 14:59:06.5310|INFO|thread:53|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 124 at BranchSynchronizer.cs:126 after waiting 9.27E-05s
+2016-06-13 14:59:06.5310|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 122 at RepositoryModel.cs:596 after blocking 0.0144137s
+2016-06-13 14:59:06.5310|INFO|thread:55|AsyncReaderWriterLock|Released concurrent scheduler for operation: 121 at GitClient.cs:201 after blocking 0.0228444s
+2016-06-13 14:59:06.5450|INFO|thread:49|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 14:59:06.5450|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 124 at BranchSynchronizer.cs:126 after blocking 0.0143692s
+2016-06-13 14:59:06.5606|INFO|thread:58|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 14:59:06.5606|INFO|thread:58|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 14:59:06.5606|INFO|thread:58|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 14:59:06.6341|INFO|thread:53|ConcurrentRepositoryConnection|Took 67ms to git status
+2016-06-13 14:59:06.6341|INFO|thread:53|ConcurrentRepositoryConnection|Took 67ms to git status and parse output
+2016-06-13 14:59:06.6341|INFO|thread:53|NewCommitViewModel|Took 103ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:59:06.6341|INFO|thread:53|AsyncReaderWriterLock|Released concurrent scheduler for operation: 123 at GitClient.cs:290 after blocking 0.1037862s
+2016-06-13 14:59:06.6341|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 14:59:06.6341|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 125 at RepositoryViewModel.cs:336
+2016-06-13 14:59:06.6341|INFO|thread:65|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 125 at RepositoryViewModel.cs:336 after waiting 3.45E-05s
+2016-06-13 14:59:06.6531|INFO|thread:53|AsyncReaderWriterLock|Released concurrent scheduler for operation: 125 at RepositoryViewModel.cs:336 after blocking 0.0170472s
+2016-06-13 15:04:10.1153|INFO|thread:54|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 126 at BranchSynchronizer.cs:160
+2016-06-13 15:04:10.1153|INFO|thread:54|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 126 at BranchSynchronizer.cs:160 after waiting 0.0013596s
+2016-06-13 15:04:10.1494|INFO|thread:54|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:04:10.1494|INFO|thread:54|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:04:10.1494|INFO|thread:54|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:04:11.0997|INFO|thread:51|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:04:11.0997|INFO|thread:51|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 18164 milliseconds
+2016-06-13 15:04:11.1117|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 127 at GitClient.cs:623
+2016-06-13 15:04:11.1117|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:04:11.1533|INFO|thread:52|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 127 at GitClient.cs:623 after waiting 0.0415006s
+2016-06-13 15:04:11.1533|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 128 at GitClient.cs:201
+2016-06-13 15:04:11.1533|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 129 at RepositoryModel.cs:596
+2016-06-13 15:04:11.1533|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 126 at BranchSynchronizer.cs:160 after blocking 1.0432434s
+2016-06-13 15:04:11.1533|INFO|thread:54|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 128 at GitClient.cs:201 after waiting 0.000542s
+2016-06-13 15:04:11.1533|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 129 at RepositoryModel.cs:596 after waiting 0.0001999s
+2016-06-13 15:04:11.1533|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 127 at GitClient.cs:623 after blocking 0.0071815s
+2016-06-13 15:04:11.1723|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 130 at GitClient.cs:290
+2016-06-13 15:04:11.1723|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 131 at BranchSynchronizer.cs:126
+2016-06-13 15:04:11.1723|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 129 at RepositoryModel.cs:596 after blocking 0.0127446s
+2016-06-13 15:04:11.1723|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 130 at GitClient.cs:290 after waiting 0.0003451s
+2016-06-13 15:04:11.1723|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 131 at BranchSynchronizer.cs:126 after waiting 0.0002801s
+2016-06-13 15:04:11.1823|INFO|thread:52|AsyncReaderWriterLock|Released concurrent scheduler for operation: 128 at GitClient.cs:201 after blocking 0.0223358s
+2016-06-13 15:04:11.1823|INFO|thread:52|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:04:11.1823|INFO|thread:52|AsyncReaderWriterLock|Released concurrent scheduler for operation: 131 at BranchSynchronizer.cs:126 after blocking 0.0190082s
+2016-06-13 15:04:11.2128|INFO|thread:54|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:04:11.2128|INFO|thread:54|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:04:11.2128|INFO|thread:54|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:04:11.2884|INFO|thread:54|ConcurrentRepositoryConnection|Took 72ms to git status
+2016-06-13 15:04:11.2884|INFO|thread:54|ConcurrentRepositoryConnection|Took 72ms to git status and parse output
+2016-06-13 15:04:11.2884|INFO|thread:54|NewCommitViewModel|Took 116ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:04:11.2884|INFO|thread:54|AsyncReaderWriterLock|Released concurrent scheduler for operation: 130 at GitClient.cs:290 after blocking 0.1158857s
+2016-06-13 15:04:11.2884|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:04:11.2884|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 132 at RepositoryViewModel.cs:336
+2016-06-13 15:04:11.2884|INFO|thread:54|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 132 at RepositoryViewModel.cs:336 after waiting 1.71E-05s
+2016-06-13 15:04:11.3084|INFO|thread:52|AsyncReaderWriterLock|Released concurrent scheduler for operation: 132 at RepositoryViewModel.cs:336 after blocking 0.0188139s
+2016-06-13 15:09:28.2825|INFO|thread:60|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 133 at BranchSynchronizer.cs:160
+2016-06-13 15:09:28.2825|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 133 at BranchSynchronizer.cs:160 after waiting 0.0003721s
+2016-06-13 15:09:28.3140|INFO|thread:68|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:09:28.3140|INFO|thread:68|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:09:28.3140|INFO|thread:68|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:09:28.6573|INFO|thread:68|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:09:28.6573|INFO|thread:68|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 6978 milliseconds
+2016-06-13 15:09:28.6668|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:09:28.6883|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 134 at GitClient.cs:623
+2016-06-13 15:09:28.6883|INFO|thread:68|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 134 at GitClient.cs:623 after waiting 3.3E-05s
+2016-06-13 15:09:29.3051|INFO|thread:57|AsyncReaderWriterLock|Released concurrent scheduler for operation: 134 at GitClient.cs:623 after blocking 0.616435s
+2016-06-13 15:09:29.3286|INFO|thread:59|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 135 at GitClient.cs:201
+2016-06-13 15:09:29.3286|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 135 at GitClient.cs:201 after waiting 3.8E-05s
+2016-06-13 15:09:29.3286|INFO|thread:59|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 136 at RepositoryModel.cs:596
+2016-06-13 15:09:29.3286|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 136 at RepositoryModel.cs:596 after waiting 5.43E-05s
+2016-06-13 15:09:29.3286|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 133 at BranchSynchronizer.cs:160 after blocking 1.046219s
+2016-06-13 15:09:29.3411|INFO|thread:59|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 137 at GitClient.cs:290
+2016-06-13 15:09:29.3411|INFO|thread:59|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 138 at BranchSynchronizer.cs:126
+2016-06-13 15:09:29.3411|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 136 at RepositoryModel.cs:596 after blocking 0.0121885s
+2016-06-13 15:09:29.3411|INFO|thread:68|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 137 at GitClient.cs:290 after waiting 0.0002938s
+2016-06-13 15:09:29.3411|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 138 at BranchSynchronizer.cs:126 after waiting 0.0002812s
+2016-06-13 15:09:29.3411|INFO|thread:59|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:09:29.3411|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 138 at BranchSynchronizer.cs:126 after blocking 0.0101621s
+2016-06-13 15:09:29.3527|INFO|thread:57|AsyncReaderWriterLock|Released concurrent scheduler for operation: 135 at GitClient.cs:201 after blocking 0.0242135s
+2016-06-13 15:09:29.3807|INFO|thread:68|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:09:29.3807|INFO|thread:68|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:09:29.3807|INFO|thread:68|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:09:29.4522|INFO|thread:50|ConcurrentRepositoryConnection|Took 69ms to git status
+2016-06-13 15:09:29.4522|INFO|thread:50|ConcurrentRepositoryConnection|Took 69ms to git status and parse output
+2016-06-13 15:09:29.4522|INFO|thread:50|NewCommitViewModel|Took 111ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:09:29.4522|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 137 at GitClient.cs:290 after blocking 0.1113684s
+2016-06-13 15:09:29.4522|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:09:29.4522|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 139 at RepositoryViewModel.cs:336
+2016-06-13 15:09:29.4522|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 139 at RepositoryViewModel.cs:336 after waiting 2.05E-05s
+2016-06-13 15:09:29.4702|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 139 at RepositoryViewModel.cs:336 after blocking 0.0160896s
+2016-06-13 15:14:35.2625|INFO|thread:58|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 140 at BranchSynchronizer.cs:160
+2016-06-13 15:14:35.2625|INFO|thread:67|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 140 at BranchSynchronizer.cs:160 after waiting 0.0004816s
+2016-06-13 15:14:35.2975|INFO|thread:64|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:14:35.2975|INFO|thread:64|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:14:35.2975|INFO|thread:64|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:14:35.6112|INFO|thread:56|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:14:35.6112|INFO|thread:56|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 24072 milliseconds
+2016-06-13 15:14:35.6112|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:14:35.6483|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 141 at GitClient.cs:623
+2016-06-13 15:14:35.6483|INFO|thread:56|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 141 at GitClient.cs:623 after waiting 6.27E-05s
+2016-06-13 15:14:35.6553|INFO|thread:62|AsyncReaderWriterLock|Released concurrent scheduler for operation: 141 at GitClient.cs:623 after blocking 0.0072097s
+2016-06-13 15:14:36.3124|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 142 at GitClient.cs:201
+2016-06-13 15:14:36.3124|INFO|thread:55|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 142 at GitClient.cs:201 after waiting 4.67E-05s
+2016-06-13 15:14:36.3124|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 143 at RepositoryModel.cs:596
+2016-06-13 15:14:36.3124|INFO|thread:69|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 143 at RepositoryModel.cs:596 after waiting 8.47E-05s
+2016-06-13 15:14:36.3124|INFO|thread:56|AsyncReaderWriterLock|Released concurrent scheduler for operation: 140 at BranchSynchronizer.cs:160 after blocking 1.0520436s
+2016-06-13 15:14:36.3244|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 144 at GitClient.cs:290
+2016-06-13 15:14:36.3244|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 145 at BranchSynchronizer.cs:126
+2016-06-13 15:14:36.3244|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 143 at RepositoryModel.cs:596 after blocking 0.011543s
+2016-06-13 15:14:36.3244|INFO|thread:64|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 144 at GitClient.cs:290 after waiting 0.0003094s
+2016-06-13 15:14:36.3244|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 145 at BranchSynchronizer.cs:126 after waiting 0.0002143s
+2016-06-13 15:14:36.3244|INFO|thread:62|AsyncReaderWriterLock|Released concurrent scheduler for operation: 142 at GitClient.cs:201 after blocking 0.0220142s
+2016-06-13 15:14:36.3244|INFO|thread:61|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:14:36.3244|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 145 at BranchSynchronizer.cs:126 after blocking 0.0111314s
+2016-06-13 15:14:36.3525|INFO|thread:58|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:14:36.3525|INFO|thread:58|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:14:36.3525|INFO|thread:58|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:14:36.4215|INFO|thread:69|ConcurrentRepositoryConnection|Took 66ms to git status
+2016-06-13 15:14:36.4215|INFO|thread:69|ConcurrentRepositoryConnection|Took 66ms to git status and parse output
+2016-06-13 15:14:36.4325|INFO|thread:69|NewCommitViewModel|Took 107ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:14:36.4325|INFO|thread:69|AsyncReaderWriterLock|Released concurrent scheduler for operation: 144 at GitClient.cs:290 after blocking 0.1076349s
+2016-06-13 15:14:36.4325|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:14:36.4325|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 146 at RepositoryViewModel.cs:336
+2016-06-13 15:14:36.4325|INFO|thread:58|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 146 at RepositoryViewModel.cs:336 after waiting 2.16E-05s
+2016-06-13 15:14:36.4490|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 146 at RepositoryViewModel.cs:336 after blocking 0.0157015s
+2016-06-13 15:19:14.5736|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 147 at GitClient.cs:201
+2016-06-13 15:19:14.5736|INFO|thread:67|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 147 at GitClient.cs:201 after waiting 6.46E-05s
+2016-06-13 15:19:14.5736|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 148 at RepositoryModel.cs:596
+2016-06-13 15:19:14.5736|INFO|thread:60|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 148 at RepositoryModel.cs:596 after waiting 0.0039574s
+2016-06-13 15:19:14.6092|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 147 at GitClient.cs:201 after blocking 0.0353545s
+2016-06-13 15:19:14.6432|INFO|thread:60|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 149 at GitClient.cs:290
+2016-06-13 15:19:14.6432|INFO|thread:59|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 149 at GitClient.cs:290 after waiting 5.39E-05s
+2016-06-13 15:19:14.6432|INFO|thread:60|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 150 at BranchSynchronizer.cs:126
+2016-06-13 15:19:14.6432|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 150 at BranchSynchronizer.cs:126 after waiting 3.95E-05s
+2016-06-13 15:19:14.6432|INFO|thread:60|AsyncReaderWriterLock|Released concurrent scheduler for operation: 148 at RepositoryModel.cs:596 after blocking 0.0632373s
+2016-06-13 15:19:14.6552|INFO|thread:60|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:19:14.6552|INFO|thread:60|AsyncReaderWriterLock|Released concurrent scheduler for operation: 150 at BranchSynchronizer.cs:126 after blocking 0.0112895s
+2016-06-13 15:19:14.6762|INFO|thread:68|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:19:14.6762|INFO|thread:68|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:19:14.6762|INFO|thread:68|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:19:14.7928|INFO|thread:51|ConcurrentRepositoryConnection|Took 113ms to git status
+2016-06-13 15:19:14.7928|INFO|thread:51|ConcurrentRepositoryConnection|Took 113ms to git status and parse output
+2016-06-13 15:19:14.7928|INFO|thread:51|NewCommitViewModel|Took 151ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:19:14.7928|INFO|thread:51|AsyncReaderWriterLock|Released concurrent scheduler for operation: 149 at GitClient.cs:290 after blocking 0.1508407s
+2016-06-13 15:19:14.7928|INFO|thread: 1|NewCommitViewModel|Took 1ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:19:14.7928|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 151 at RepositoryViewModel.cs:336
+2016-06-13 15:19:14.7928|INFO|thread:60|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 151 at RepositoryViewModel.cs:336 after waiting 4.14E-05s
+2016-06-13 15:19:14.8168|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 151 at RepositoryViewModel.cs:336 after blocking 0.0201474s
+2016-06-13 15:19:59.3429|INFO|thread:68|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 152 at BranchSynchronizer.cs:160
+2016-06-13 15:19:59.3429|INFO|thread:68|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 152 at BranchSynchronizer.cs:160 after waiting 0.001417s
+2016-06-13 15:19:59.3744|INFO|thread:68|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:19:59.3744|INFO|thread:68|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:19:59.3744|INFO|thread:68|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:19:59.6916|INFO|thread:59|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:19:59.6916|INFO|thread:59|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 26379 milliseconds
+2016-06-13 15:19:59.7026|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:19:59.7507|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 153 at GitClient.cs:623
+2016-06-13 15:19:59.7507|INFO|thread:70|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 153 at GitClient.cs:623 after waiting 3.38E-05s
+2016-06-13 15:19:59.7507|INFO|thread:63|AsyncReaderWriterLock|Released concurrent scheduler for operation: 153 at GitClient.cs:623 after blocking 0.0056527s
+2016-06-13 15:20:00.3963|INFO|thread:57|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 154 at GitClient.cs:201
+2016-06-13 15:20:00.3963|INFO|thread:70|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 154 at GitClient.cs:201 after waiting 3.42E-05s
+2016-06-13 15:20:00.3963|INFO|thread:57|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 155 at RepositoryModel.cs:596
+2016-06-13 15:20:00.3963|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 155 at RepositoryModel.cs:596 after waiting 6.53E-05s
+2016-06-13 15:20:00.3963|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 152 at BranchSynchronizer.cs:160 after blocking 1.0542696s
+2016-06-13 15:20:00.4073|INFO|thread:67|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 156 at GitClient.cs:290
+2016-06-13 15:20:00.4073|INFO|thread:60|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 156 at GitClient.cs:290 after waiting 3.3E-05s
+2016-06-13 15:20:00.4073|INFO|thread:67|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 157 at BranchSynchronizer.cs:126
+2016-06-13 15:20:00.4073|INFO|thread:71|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 157 at BranchSynchronizer.cs:126 after waiting 6.65E-05s
+2016-06-13 15:20:00.4073|INFO|thread:67|AsyncReaderWriterLock|Released concurrent scheduler for operation: 155 at RepositoryModel.cs:596 after blocking 0.0106726s
+2016-06-13 15:20:00.4173|INFO|thread:59|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:20:00.4173|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 157 at BranchSynchronizer.cs:126 after blocking 0.0096774s
+2016-06-13 15:20:00.4173|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 154 at GitClient.cs:201 after blocking 0.0236795s
+2016-06-13 15:20:00.4373|INFO|thread:63|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:20:00.4373|INFO|thread:63|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:20:00.4373|INFO|thread:63|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:20:00.5129|INFO|thread:57|ConcurrentRepositoryConnection|Took 72ms to git status
+2016-06-13 15:20:00.5129|INFO|thread:57|ConcurrentRepositoryConnection|Took 72ms to git status and parse output
+2016-06-13 15:20:00.5129|INFO|thread:57|NewCommitViewModel|Took 106ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:20:00.5129|INFO|thread:57|AsyncReaderWriterLock|Released concurrent scheduler for operation: 156 at GitClient.cs:290 after blocking 0.1059365s
+2016-06-13 15:20:00.5129|INFO|thread: 1|NewCommitViewModel|Took 1ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:20:00.5129|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 158 at RepositoryViewModel.cs:336
+2016-06-13 15:20:00.5129|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 158 at RepositoryViewModel.cs:336 after waiting 0.0036046s
+2016-06-13 15:20:00.5374|INFO|thread:67|AsyncReaderWriterLock|Released concurrent scheduler for operation: 158 at RepositoryViewModel.cs:336 after blocking 0.0190739s
+2016-06-13 15:22:03.0789|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 159 at GitClient.cs:201
+2016-06-13 15:22:03.0789|INFO|thread:68|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 159 at GitClient.cs:201 after waiting 4.44E-05s
+2016-06-13 15:22:03.0789|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 160 at RepositoryModel.cs:596
+2016-06-13 15:22:03.0789|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 160 at RepositoryModel.cs:596 after waiting 0.0012483s
+2016-06-13 15:22:03.0929|INFO|thread:63|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 161 at GitClient.cs:290
+2016-06-13 15:22:03.0929|INFO|thread:21|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 161 at GitClient.cs:290 after waiting 3.91E-05s
+2016-06-13 15:22:03.0929|INFO|thread:63|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 162 at BranchSynchronizer.cs:126
+2016-06-13 15:22:03.0929|INFO|thread:63|AsyncReaderWriterLock|Released concurrent scheduler for operation: 160 at RepositoryModel.cs:596 after blocking 0.0127606s
+2016-06-13 15:22:03.0929|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 162 at BranchSynchronizer.cs:126 after waiting 0.0002687s
+2016-06-13 15:22:03.1069|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 159 at GitClient.cs:201 after blocking 0.0277623s
+2016-06-13 15:22:03.1069|INFO|thread:13|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:22:03.1069|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 162 at BranchSynchronizer.cs:126 after blocking 0.0200125s
+2016-06-13 15:22:03.1349|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:22:03.1349|INFO|thread:18|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:22:03.1349|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:22:03.2280|INFO|thread:17|ConcurrentRepositoryConnection|Took 89ms to git status
+2016-06-13 15:22:03.2280|INFO|thread:17|ConcurrentRepositoryConnection|Took 89ms to git status and parse output
+2016-06-13 15:22:03.2280|INFO|thread:17|NewCommitViewModel|Took 136ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:22:03.2280|INFO|thread:17|AsyncReaderWriterLock|Released concurrent scheduler for operation: 161 at GitClient.cs:290 after blocking 0.1359686s
+2016-06-13 15:22:03.2280|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:22:03.2280|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 163 at RepositoryViewModel.cs:336
+2016-06-13 15:22:03.2280|INFO|thread:54|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 163 at RepositoryViewModel.cs:336 after waiting 6.08E-05s
+2016-06-13 15:22:03.2510|INFO|thread:53|AsyncReaderWriterLock|Released concurrent scheduler for operation: 163 at RepositoryViewModel.cs:336 after blocking 0.0203941s
+2016-06-13 15:23:28.1426|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 164 at GitClient.cs:201
+2016-06-13 15:23:28.1426|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 164 at GitClient.cs:201 after waiting 5.05E-05s
+2016-06-13 15:23:28.1426|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 165 at RepositoryModel.cs:596
+2016-06-13 15:23:28.1426|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 165 at RepositoryModel.cs:596 after waiting 0.0005447s
+2016-06-13 15:23:28.1681|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 164 at GitClient.cs:201 after blocking 0.0252509s
+2016-06-13 15:23:28.1681|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 166 at GitClient.cs:290
+2016-06-13 15:23:28.1681|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 166 at GitClient.cs:290 after waiting 4.56E-05s
+2016-06-13 15:23:28.1681|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 167 at BranchSynchronizer.cs:126
+2016-06-13 15:23:28.1681|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 167 at BranchSynchronizer.cs:126 after waiting 0.0002919s
+2016-06-13 15:23:28.1811|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 165 at RepositoryModel.cs:596 after blocking 0.0374588s
+2016-06-13 15:23:28.1811|INFO|thread:56|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:23:28.1811|INFO|thread:56|AsyncReaderWriterLock|Released concurrent scheduler for operation: 167 at BranchSynchronizer.cs:126 after blocking 0.0104935s
+2016-06-13 15:23:28.2046|INFO|thread:55|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:23:28.2046|INFO|thread:55|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:23:28.2046|INFO|thread:55|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:23:28.3162|INFO|thread:13|ConcurrentRepositoryConnection|Took 108ms to git status
+2016-06-13 15:23:28.3162|INFO|thread:13|ConcurrentRepositoryConnection|Took 108ms to git status and parse output
+2016-06-13 15:23:28.3162|INFO|thread:13|NewCommitViewModel|Took 144ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:23:28.3162|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 166 at GitClient.cs:290 after blocking 0.1440853s
+2016-06-13 15:23:28.3162|INFO|thread: 1|NewCommitViewModel|Took 0ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:23:28.3162|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 168 at RepositoryViewModel.cs:336
+2016-06-13 15:23:28.3217|INFO|thread:55|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 168 at RepositoryViewModel.cs:336 after waiting 0.000125s
+2016-06-13 15:23:28.3457|INFO|thread:55|AsyncReaderWriterLock|Released concurrent scheduler for operation: 168 at RepositoryViewModel.cs:336 after blocking 0.0241797s
+2016-06-13 15:25:25.7326|INFO|thread:64|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 169 at BranchSynchronizer.cs:160
+2016-06-13 15:25:25.7326|INFO|thread:64|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 169 at BranchSynchronizer.cs:160 after waiting 0.0013163s
+2016-06-13 15:25:25.7731|INFO|thread:64|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:25:25.7731|INFO|thread:64|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:25:25.7731|INFO|thread:64|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:25:27.0144|INFO|thread:46|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:25:27.0144|INFO|thread:46|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 7631 milliseconds
+2016-06-13 15:25:27.0279|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 170 at GitClient.cs:623
+2016-06-13 15:25:27.0279|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:25:27.1340|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 170 at GitClient.cs:623 after waiting 0.1063026s
+2016-06-13 15:25:27.1340|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 171 at GitClient.cs:201
+2016-06-13 15:25:27.1340|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 172 at RepositoryModel.cs:596
+2016-06-13 15:25:27.1340|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 169 at BranchSynchronizer.cs:160 after blocking 1.4064925s
+2016-06-13 15:25:27.1340|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 171 at GitClient.cs:201 after waiting 0.0006424s
+2016-06-13 15:25:27.1340|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 170 at GitClient.cs:623 after blocking 0.0069257s
+2016-06-13 15:25:27.1340|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 172 at RepositoryModel.cs:596 after waiting 0.0009962s
+2016-06-13 15:25:27.1540|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 173 at GitClient.cs:290
+2016-06-13 15:25:27.1540|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 174 at BranchSynchronizer.cs:126
+2016-06-13 15:25:27.1540|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 172 at RepositoryModel.cs:596 after blocking 0.0132623s
+2016-06-13 15:25:27.1540|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 173 at GitClient.cs:290 after waiting 0.0003516s
+2016-06-13 15:25:27.1540|INFO|thread:64|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 174 at BranchSynchronizer.cs:126 after waiting 0.0002755s
+2016-06-13 15:25:27.1745|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 171 at GitClient.cs:201 after blocking 0.0339906s
+2016-06-13 15:25:27.2210|INFO|thread:49|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:25:27.2210|INFO|thread:49|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:25:27.2210|INFO|thread:49|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:25:28.0211|INFO|thread:61|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:25:28.0211|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 174 at BranchSynchronizer.cs:126 after blocking 0.8673425s
+2016-06-13 15:25:28.0211|INFO|thread:49|ConcurrentRepositoryConnection|Took 798ms to git status
+2016-06-13 15:25:28.0211|INFO|thread:49|ConcurrentRepositoryConnection|Took 798ms to git status and parse output
+2016-06-13 15:25:28.0211|INFO|thread:49|NewCommitViewModel|Took 869ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:25:28.0281|INFO|thread:64|AsyncReaderWriterLock|Released concurrent scheduler for operation: 173 at GitClient.cs:290 after blocking 0.8731819s
+2016-06-13 15:25:28.0281|INFO|thread: 1|NewCommitViewModel|Took 6ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:25:28.0281|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 175 at RepositoryViewModel.cs:336
+2016-06-13 15:25:28.0281|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 175 at RepositoryViewModel.cs:336 after waiting 3.49E-05s
+2016-06-13 15:25:28.0436|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 175 at RepositoryViewModel.cs:336 after blocking 0.013812s
+2016-06-13 15:28:44.2507|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 176 at GitClient.cs:201
+2016-06-13 15:28:44.2507|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 176 at GitClient.cs:201 after waiting 5.16E-05s
+2016-06-13 15:28:44.2507|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 177 at RepositoryModel.cs:596
+2016-06-13 15:28:44.2507|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 177 at RepositoryModel.cs:596 after waiting 0.0004173s
+2016-06-13 15:28:44.2717|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 178 at GitClient.cs:290
+2016-06-13 15:28:44.2717|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 179 at BranchSynchronizer.cs:126
+2016-06-13 15:28:44.2717|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 177 at RepositoryModel.cs:596 after blocking 0.0203861s
+2016-06-13 15:28:44.2717|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 178 at GitClient.cs:290 after waiting 0.000271s
+2016-06-13 15:28:44.2717|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 179 at BranchSynchronizer.cs:126 after waiting 0.000214s
+2016-06-13 15:28:44.2717|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 176 at GitClient.cs:201 after blocking 0.0232537s
+2016-06-13 15:28:44.2842|INFO|thread:61|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:28:44.2842|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 179 at BranchSynchronizer.cs:126 after blocking 0.0125104s
+2016-06-13 15:28:44.3032|INFO|thread:40|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:28:44.3032|INFO|thread:40|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:28:44.3032|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:28:44.3852|INFO|thread:40|ConcurrentRepositoryConnection|Took 78ms to git status
+2016-06-13 15:28:44.3852|INFO|thread:40|ConcurrentRepositoryConnection|Took 78ms to git status and parse output
+2016-06-13 15:28:44.3852|INFO|thread:40|NewCommitViewModel|Took 119ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:28:44.3852|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 178 at GitClient.cs:290 after blocking 0.11881s
+2016-06-13 15:28:44.3852|INFO|thread: 1|NewCommitViewModel|Took 6ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:28:44.3852|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 180 at RepositoryViewModel.cs:336
+2016-06-13 15:28:44.3852|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 180 at RepositoryViewModel.cs:336 after waiting 3.34E-05s
+2016-06-13 15:28:44.4208|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 180 at RepositoryViewModel.cs:336 after blocking 0.0230302s
+2016-06-13 15:28:44.4208|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 181 at GitClient.cs:497
+2016-06-13 15:28:44.4208|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 181 at GitClient.cs:497 after waiting 2.39E-05s
+2016-06-13 15:28:44.5163|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 181 at GitClient.cs:497 after blocking 0.091544s
+2016-06-13 15:28:45.6440|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 182 at GitClient.cs:201
+2016-06-13 15:28:45.6440|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 182 at GitClient.cs:201 after waiting 3.87E-05s
+2016-06-13 15:28:45.6440|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 183 at RepositoryModel.cs:596
+2016-06-13 15:28:45.6440|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 183 at RepositoryModel.cs:596 after waiting 0.0006731s
+2016-06-13 15:28:45.6645|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 182 at GitClient.cs:201 after blocking 0.0200908s
+2016-06-13 15:28:45.6760|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 184 at GitClient.cs:290
+2016-06-13 15:28:45.6760|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 184 at GitClient.cs:290 after waiting 3.57E-05s
+2016-06-13 15:28:45.6760|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 185 at BranchSynchronizer.cs:126
+2016-06-13 15:28:45.6760|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 183 at RepositoryModel.cs:596 after blocking 0.0309131s
+2016-06-13 15:28:45.6760|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 185 at BranchSynchronizer.cs:126 after waiting 0.0001011s
+2016-06-13 15:28:45.6855|INFO|thread:49|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:28:45.6855|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 185 at BranchSynchronizer.cs:126 after blocking 0.0096588s
+2016-06-13 15:28:45.7145|INFO|thread:40|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:28:45.7145|INFO|thread:40|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:28:45.7145|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:28:45.8036|INFO|thread:40|ConcurrentRepositoryConnection|Took 86ms to git status
+2016-06-13 15:28:45.8036|INFO|thread:40|ConcurrentRepositoryConnection|Took 86ms to git status and parse output
+2016-06-13 15:28:46.6034|INFO|thread:40|NewCommitViewModel|Took 927ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:28:46.6034|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 184 at GitClient.cs:290 after blocking 0.9276686s
+2016-06-13 15:28:46.6034|INFO|thread: 1|NewCommitViewModel|Took 9ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:28:46.6034|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 186 at RepositoryViewModel.cs:336
+2016-06-13 15:28:46.6034|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 186 at RepositoryViewModel.cs:336 after waiting 3.07E-05s
+2016-06-13 15:28:46.6324|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 186 at RepositoryViewModel.cs:336 after blocking 0.0187573s
+2016-06-13 15:28:47.4985|INFO|thread: 1|RepositoryHost|Log in from cache for login 'OgniG' to host 'https://api.github.com/' SUCCEEDED
+2016-06-13 15:28:47.4985|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 187 at BranchSynchronizer.cs:238
+2016-06-13 15:28:47.4985|INFO|thread:49|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 187 at BranchSynchronizer.cs:238 after waiting 0.0002269s
+2016-06-13 15:28:47.5776|INFO|thread:61|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:28:47.5776|INFO|thread:61|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:28:47.5776|INFO|thread:61|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:28:54.6207|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 188 at RepositoryModel.cs:596
+2016-06-13 15:28:54.6207|INFO|thread:65|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 189 at GitClient.cs:290
+2016-06-13 15:28:54.6207|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 188 at RepositoryModel.cs:596 after waiting 0.0044819s
+2016-06-13 15:28:54.6207|INFO|thread:53|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 189 at GitClient.cs:290 after waiting 0.0031504s
+2016-06-13 15:28:54.6207|INFO|thread:61|AsyncReaderWriterLock|Released exclusive scheduler for operation: 187 at BranchSynchronizer.cs:238 after blocking 7.1224819s
+2016-06-13 15:28:54.6207|INFO|thread: 1|BranchSynchronizer|Completing sync for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1 - master
+2016-06-13 15:28:54.6207|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 190 at RepositoryViewModel.cs:336
+2016-06-13 15:28:54.6207|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 191 at GitClient.cs:201
+2016-06-13 15:28:54.6207|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 192 at RepositoryModel.cs:596
+2016-06-13 15:28:54.6207|INFO|thread: 1|BranchSynchronizer|Took 7127ms to sync repository C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1 - master
+2016-06-13 15:28:54.6207|INFO|thread:58|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 190 at RepositoryViewModel.cs:336 after waiting 0.0021533s
+2016-06-13 15:28:54.6367|INFO|thread:49|AsyncReaderWriterLock|Released concurrent scheduler for operation: 188 at RepositoryModel.cs:596 after blocking 0.0111112s
+2016-06-13 15:28:54.6367|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 191 at GitClient.cs:201 after waiting 0.0080661s
+2016-06-13 15:28:54.6367|INFO|thread:48|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 192 at RepositoryModel.cs:596 after waiting 0.0127959s
+2016-06-13 15:28:54.6542|INFO|thread:40|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 193 at BranchSynchronizer.cs:126
+2016-06-13 15:28:54.6542|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 192 at RepositoryModel.cs:596 after blocking 0.0120334s
+2016-06-13 15:28:54.6542|INFO|thread:48|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 193 at BranchSynchronizer.cs:126 after waiting 0.000109s
+2016-06-13 15:28:54.6542|INFO|thread:41|AsyncReaderWriterLock|Released concurrent scheduler for operation: 190 at RepositoryViewModel.cs:336 after blocking 0.0297485s
+2016-06-13 15:28:54.6542|INFO|thread:40|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:28:54.6542|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 193 at BranchSynchronizer.cs:126 after blocking 0.0093018s
+2016-06-13 15:28:54.6858|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 191 at GitClient.cs:201 after blocking 0.0492581s
+2016-06-13 15:28:54.6858|INFO|thread:53|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:28:54.6858|INFO|thread:53|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:28:54.6858|INFO|thread:53|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:28:54.7743|INFO|thread:17|ConcurrentRepositoryConnection|Took 76ms to git status
+2016-06-13 15:28:54.7743|INFO|thread:17|ConcurrentRepositoryConnection|Took 76ms to git status and parse output
+2016-06-13 15:28:54.7778|INFO|thread:17|NewCommitViewModel|Took 155ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:28:54.7778|INFO|thread:17|AsyncReaderWriterLock|Released concurrent scheduler for operation: 189 at GitClient.cs:290 after blocking 0.1524984s
+2016-06-13 15:28:54.7778|INFO|thread: 1|NewCommitViewModel|Took 2ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:30:33.3710|INFO|thread:61|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 194 at BranchSynchronizer.cs:160
+2016-06-13 15:30:33.3710|INFO|thread:48|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 194 at BranchSynchronizer.cs:160 after waiting 0.0006112s
+2016-06-13 15:30:33.4055|INFO|thread:13|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:30:33.4055|INFO|thread:13|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:30:33.4055|INFO|thread:13|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:30:33.7148|INFO|thread:47|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:30:33.7148|INFO|thread:47|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 2341 milliseconds
+2016-06-13 15:30:33.7148|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:30:33.7548|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 195 at GitClient.cs:623
+2016-06-13 15:30:33.7548|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 195 at GitClient.cs:623 after waiting 3.76E-05s
+2016-06-13 15:30:33.7628|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 195 at GitClient.cs:623 after blocking 0.0076263s
+2016-06-13 15:30:34.5449|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 196 at GitClient.cs:201
+2016-06-13 15:30:34.5449|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 196 at GitClient.cs:201 after waiting 4.33E-05s
+2016-06-13 15:30:34.5449|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 197 at RepositoryModel.cs:596
+2016-06-13 15:30:34.5449|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 197 at RepositoryModel.cs:596 after waiting 3.07E-05s
+2016-06-13 15:30:34.5449|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 194 at BranchSynchronizer.cs:160 after blocking 1.1739235s
+2016-06-13 15:30:34.5579|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 198 at GitClient.cs:290
+2016-06-13 15:30:34.5579|INFO|thread:41|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 198 at GitClient.cs:290 after waiting 4.67E-05s
+2016-06-13 15:30:34.5579|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 199 at BranchSynchronizer.cs:126
+2016-06-13 15:30:34.5579|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 197 at RepositoryModel.cs:596 after blocking 0.0125051s
+2016-06-13 15:30:34.5579|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 199 at BranchSynchronizer.cs:126 after waiting 0.0003223s
+2016-06-13 15:30:34.5749|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 196 at GitClient.cs:201 after blocking 0.0298051s
+2016-06-13 15:30:34.5749|INFO|thread: 4|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:30:34.5749|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 199 at BranchSynchronizer.cs:126 after blocking 0.0179001s
+2016-06-13 15:30:34.5885|INFO|thread:13|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:30:34.5885|INFO|thread:13|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:30:34.5885|INFO|thread:13|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:30:34.6665|INFO|thread:66|ConcurrentRepositoryConnection|Took 75ms to git status
+2016-06-13 15:30:34.6665|INFO|thread:66|ConcurrentRepositoryConnection|Took 75ms to git status and parse output
+2016-06-13 15:30:34.6665|INFO|thread:66|NewCommitViewModel|Took 120ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:30:34.6665|INFO|thread:66|AsyncReaderWriterLock|Released concurrent scheduler for operation: 198 at GitClient.cs:290 after blocking 0.1206129s
+2016-06-13 15:30:34.6965|INFO|thread:47|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 200 at GitClient.cs:497
+2016-06-13 15:30:34.6965|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 200 at GitClient.cs:497 after waiting 3.23E-05s
+2016-06-13 15:30:34.6965|INFO|thread: 1|NewCommitViewModel|Took 27ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:30:34.6965|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 201 at RepositoryViewModel.cs:336
+2016-06-13 15:30:34.6965|INFO|thread:66|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 201 at RepositoryViewModel.cs:336 after waiting 5.58E-05s
+2016-06-13 15:30:34.7260|INFO|thread:20|AsyncReaderWriterLock|Released concurrent scheduler for operation: 201 at RepositoryViewModel.cs:336 after blocking 0.0191895s
+2016-06-13 15:30:34.7621|INFO|thread:61|DiffModelFactory|Failed generating diff
+LibGit2Sharp.LibGit2SharpException: Could not open 'C:/Users/Ogni/Documents/GitHub/AST-06-Stage-1/~$Data.xlsx': The process cannot access the file because it is being used by another process.
+
+   at LibGit2Sharp.Core.Ensure.HandleError(Int32 result)
+   at LibGit2Sharp.Core.Proxy.git_patch_from_diff(DiffSafeHandle diff, Int32 idx)
+   at LibGit2Sharp.Patch..ctor(DiffSafeHandle diff)
+   at LibGit2Sharp.Diff.<.cctor>b__1b(DiffSafeHandle diff)
+   at LibGit2Sharp.Diff.BuildDiffResult[T](DiffSafeHandle diff)
+   at LibGit2Sharp.Diff.Compare[T](Tree oldTree, DiffTargets diffTargets, IEnumerable`1 paths, ExplicitPathsOptions explicitPathsOptions, CompareOptions compareOptions)
+   at LibGit2Sharp.Diff.Compare[T](Tree oldTree, DiffTargets diffTargets, IEnumerable`1 paths)
+   at GitHub.ConcurrentRepositoryConnection.<>c__DisplayClass77.<GenerateDiffForFile>b__76()
+   at System.Reactive.Linq.ObservableImpl.Defer`1.Eval()
+   at System.Reactive.Linq.ObservableImpl.Defer`1._.Run()
+2016-06-13 15:30:34.8121|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 200 at GitClient.cs:497 after blocking 0.1153099s
+2016-06-13 15:35:35.7161|INFO|thread:47|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 202 at BranchSynchronizer.cs:160
+2016-06-13 15:35:35.7161|INFO|thread:60|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 202 at BranchSynchronizer.cs:160 after waiting 0.0003485s
+2016-06-13 15:35:35.7511|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:35:35.7511|INFO|thread:47|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:35:35.7511|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:35:36.0778|INFO|thread:48|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:35:36.0778|INFO|thread:48|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 11185 milliseconds
+2016-06-13 15:35:36.0778|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:35:36.1229|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 203 at GitClient.cs:623
+2016-06-13 15:35:36.1229|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 203 at GitClient.cs:623 after waiting 2.92E-05s
+2016-06-13 15:35:36.1229|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 203 at GitClient.cs:623 after blocking 0.0067915s
+2016-06-13 15:35:36.7943|INFO|thread:66|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 204 at GitClient.cs:201
+2016-06-13 15:35:36.7943|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 204 at GitClient.cs:201 after waiting 4.29E-05s
+2016-06-13 15:35:36.7943|INFO|thread:66|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 205 at RepositoryModel.cs:596
+2016-06-13 15:35:36.7943|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 205 at RepositoryModel.cs:596 after waiting 5.43E-05s
+2016-06-13 15:35:36.7943|INFO|thread:63|AsyncReaderWriterLock|Released concurrent scheduler for operation: 202 at BranchSynchronizer.cs:160 after blocking 1.08233s
+2016-06-13 15:35:36.8063|INFO|thread:20|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 206 at GitClient.cs:290
+2016-06-13 15:35:36.8063|INFO|thread:20|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 207 at BranchSynchronizer.cs:126
+2016-06-13 15:35:36.8063|INFO|thread:20|AsyncReaderWriterLock|Released concurrent scheduler for operation: 205 at RepositoryModel.cs:596 after blocking 0.0115134s
+2016-06-13 15:35:36.8063|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 206 at GitClient.cs:290 after waiting 0.0002774s
+2016-06-13 15:35:36.8063|INFO|thread:20|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 207 at BranchSynchronizer.cs:126 after waiting 0.0002223s
+2016-06-13 15:35:36.8063|INFO|thread:20|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:35:36.8063|INFO|thread:20|AsyncReaderWriterLock|Released concurrent scheduler for operation: 207 at BranchSynchronizer.cs:126 after blocking 0.0093585s
+2016-06-13 15:35:36.8358|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 204 at GitClient.cs:201 after blocking 0.0417735s
+2016-06-13 15:35:36.8848|INFO|thread:59|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:35:36.8848|INFO|thread:59|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:35:36.8848|INFO|thread:59|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:35:36.9579|INFO|thread:48|ConcurrentRepositoryConnection|Took 70ms to git status
+2016-06-13 15:35:36.9579|INFO|thread:48|ConcurrentRepositoryConnection|Took 70ms to git status and parse output
+2016-06-13 15:35:36.9624|INFO|thread:48|NewCommitViewModel|Took 156ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:35:36.9624|INFO|thread:48|AsyncReaderWriterLock|Released concurrent scheduler for operation: 206 at GitClient.cs:290 after blocking 0.1557648s
+2016-06-13 15:35:37.0424|INFO|thread: 1|NewCommitViewModel|Took 80ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:35:37.0424|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 208 at RepositoryViewModel.cs:336
+2016-06-13 15:35:37.0424|INFO|thread:60|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 208 at RepositoryViewModel.cs:336 after waiting 3.04E-05s
+2016-06-13 15:35:37.0619|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 208 at RepositoryViewModel.cs:336 after blocking 0.0187075s
+2016-06-13 15:40:33.5865|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 209 at GitClient.cs:201
+2016-06-13 15:40:33.5865|INFO|thread:66|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 209 at GitClient.cs:201 after waiting 4.21E-05s
+2016-06-13 15:40:33.5870|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 210 at RepositoryModel.cs:596
+2016-06-13 15:40:33.5870|INFO|thread:60|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 210 at RepositoryModel.cs:596 after waiting 0.0015246s
+2016-06-13 15:40:33.6141|INFO|thread:20|AsyncReaderWriterLock|Released concurrent scheduler for operation: 209 at GitClient.cs:201 after blocking 0.0276536s
+2016-06-13 15:40:33.6141|INFO|thread:60|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 211 at GitClient.cs:290
+2016-06-13 15:40:33.6141|INFO|thread:66|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 211 at GitClient.cs:290 after waiting 4.18E-05s
+2016-06-13 15:40:33.6141|INFO|thread:60|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 212 at BranchSynchronizer.cs:126
+2016-06-13 15:40:33.6141|INFO|thread:48|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 212 at BranchSynchronizer.cs:126 after waiting 0.000144s
+2016-06-13 15:40:33.6141|INFO|thread:60|AsyncReaderWriterLock|Released concurrent scheduler for operation: 210 at RepositoryModel.cs:596 after blocking 0.0273522s
+2016-06-13 15:40:33.6336|INFO|thread:60|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:40:33.6341|INFO|thread:60|AsyncReaderWriterLock|Released concurrent scheduler for operation: 212 at BranchSynchronizer.cs:126 after blocking 0.0189694s
+2016-06-13 15:40:33.6341|INFO|thread:13|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:40:33.6341|INFO|thread:13|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:40:33.6341|INFO|thread:13|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:40:33.7642|INFO|thread:48|ConcurrentRepositoryConnection|Took 111ms to git status
+2016-06-13 15:40:33.7642|INFO|thread:48|ConcurrentRepositoryConnection|Took 111ms to git status and parse output
+2016-06-13 15:40:33.7642|INFO|thread:48|NewCommitViewModel|Took 153ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:40:33.7642|INFO|thread:48|AsyncReaderWriterLock|Released concurrent scheduler for operation: 211 at GitClient.cs:290 after blocking 0.1533636s
+2016-06-13 15:40:33.7642|INFO|thread: 1|NewCommitViewModel|Took 4ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:40:33.7642|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 213 at RepositoryViewModel.cs:336
+2016-06-13 15:40:33.7642|INFO|thread:60|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 213 at RepositoryViewModel.cs:336 after waiting 3.19E-05s
+2016-06-13 15:40:33.7902|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 213 at RepositoryViewModel.cs:336 after blocking 0.0168791s
+2016-06-13 15:40:36.7392|INFO|thread: 1|RepositoryHost|Log in from cache for login 'OgniG' to host 'https://api.github.com/' SUCCEEDED
+2016-06-13 15:40:36.7452|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 214 at BranchSynchronizer.cs:238
+2016-06-13 15:40:36.7452|INFO|thread:20|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 214 at BranchSynchronizer.cs:238 after waiting 0.0035754s
+2016-06-13 15:40:36.8268|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:40:36.8268|INFO|thread:47|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:40:36.8268|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:40:42.5916|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.AboutViewModel.
+2016-06-13 15:40:42.6116|INFO|thread: 1|SoftwareUpdateViewModel|Checking for new version
+2016-06-13 15:40:42.8233|INFO|thread:66|AsyncReaderWriterLock|Released exclusive scheduler for operation: 214 at BranchSynchronizer.cs:238 after blocking 6.0744193s
+2016-06-13 15:40:42.8233|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 215 at RepositoryModel.cs:596
+2016-06-13 15:40:42.8233|INFO|thread:65|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 216 at GitClient.cs:290
+2016-06-13 15:40:42.8233|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 215 at RepositoryModel.cs:596 after waiting 0.0010795s
+2016-06-13 15:40:42.8233|INFO|thread:66|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 216 at GitClient.cs:290 after waiting 0.003968s
+2016-06-13 15:40:42.8518|INFO|thread:20|AsyncReaderWriterLock|Released concurrent scheduler for operation: 215 at RepositoryModel.cs:596 after blocking 0.0271465s
+2016-06-13 15:40:42.8593|INFO|thread:63|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:40:42.8593|INFO|thread:63|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:40:42.8593|INFO|thread:63|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:40:42.9499|INFO|thread:61|ConcurrentRepositoryConnection|Took 86ms to git status
+2016-06-13 15:40:42.9499|INFO|thread:61|ConcurrentRepositoryConnection|Took 86ms to git status and parse output
+2016-06-13 15:40:42.9499|INFO|thread:61|NewCommitViewModel|Took 131ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:40:42.9499|INFO|thread:61|AsyncReaderWriterLock|Released concurrent scheduler for operation: 216 at GitClient.cs:290 after blocking 0.1273809s
+2016-06-13 15:40:42.9789|INFO|thread: 1|BranchSynchronizer|Completing sync for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1 - master
+2016-06-13 15:40:42.9789|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 217 at RepositoryViewModel.cs:336
+2016-06-13 15:40:42.9789|INFO|thread:48|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 217 at RepositoryViewModel.cs:336 after waiting 3.42E-05s
+2016-06-13 15:40:42.9789|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 218 at GitClient.cs:201
+2016-06-13 15:40:42.9789|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 219 at RepositoryModel.cs:596
+2016-06-13 15:40:42.9789|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 218 at GitClient.cs:201 after waiting 0.0005785s
+2016-06-13 15:40:42.9789|INFO|thread: 1|BranchSynchronizer|Took 6235ms to sync repository C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1 - master
+2016-06-13 15:40:42.9789|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 219 at RepositoryModel.cs:596 after waiting 0.0018397s
+2016-06-13 15:40:42.9934|INFO|thread:66|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 220 at BranchSynchronizer.cs:126
+2016-06-13 15:40:42.9934|INFO|thread:66|AsyncReaderWriterLock|Released concurrent scheduler for operation: 219 at RepositoryModel.cs:596 after blocking 0.0114898s
+2016-06-13 15:40:42.9934|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 220 at BranchSynchronizer.cs:126 after waiting 8.59E-05s
+2016-06-13 15:40:42.9934|INFO|thread:17|AsyncReaderWriterLock|Released concurrent scheduler for operation: 217 at RepositoryViewModel.cs:336 after blocking 0.018354s
+2016-06-13 15:40:42.9934|INFO|thread:66|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:40:42.9934|INFO|thread:66|AsyncReaderWriterLock|Released concurrent scheduler for operation: 220 at BranchSynchronizer.cs:126 after blocking 0.0089377s
+2016-06-13 15:40:42.9934|INFO|thread:59|AsyncReaderWriterLock|Released concurrent scheduler for operation: 218 at GitClient.cs:201 after blocking 0.0226288s
+2016-06-13 15:40:43.0574|INFO|thread: 1|NewCommitViewModel|Took 101ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:40:43.5878|INFO|thread:59|SoftwareUpdateViewModel|New version available: 3.1.1.4
+2016-06-13 15:40:46.8765|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.AboutViewModel.
+2016-06-13 15:40:46.8765|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.AboutViewModel.
+2016-06-13 15:40:46.9021|INFO|thread:50|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 221 at BranchSynchronizer.cs:160
+2016-06-13 15:40:46.9021|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 221 at BranchSynchronizer.cs:160 after waiting 1.97E-05s
+2016-06-13 15:40:46.9371|INFO|thread:59|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:40:46.9371|INFO|thread:59|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:40:46.9371|INFO|thread:59|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand origin ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:40:47.1968|INFO|thread:17|BackgroundFetcher|Got a refresh period for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 300 seconds
+2016-06-13 15:40:47.1968|INFO|thread:17|BackgroundFetcher|Added a delay for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\.git of 12764 milliseconds
+2016-06-13 15:40:47.2323|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 222 at GitClient.cs:623
+2016-06-13 15:40:47.2323|INFO|thread:17|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 222 at GitClient.cs:623 after waiting 3.26E-05s
+2016-06-13 15:40:47.2323|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-06-13 15:40:47.2323|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 222 at GitClient.cs:623 after blocking 0.0070884s
+2016-06-13 15:40:48.4124|INFO|thread:47|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 223 at GitClient.cs:201
+2016-06-13 15:40:48.4124|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 223 at GitClient.cs:201 after waiting 4.59E-05s
+2016-06-13 15:40:48.4124|INFO|thread:47|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 224 at RepositoryModel.cs:596
+2016-06-13 15:40:48.4124|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 221 at BranchSynchronizer.cs:160 after blocking 1.5107273s
+2016-06-13 15:40:48.4124|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 224 at RepositoryModel.cs:596 after waiting 5.85E-05s
+2016-06-13 15:40:48.4239|INFO|thread:20|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 225 at GitClient.cs:290
+2016-06-13 15:40:48.4239|INFO|thread:20|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 226 at BranchSynchronizer.cs:126
+2016-06-13 15:40:48.4239|INFO|thread:20|AsyncReaderWriterLock|Released concurrent scheduler for operation: 224 at RepositoryModel.cs:596 after blocking 0.0109903s
+2016-06-13 15:40:48.4239|INFO|thread:63|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 225 at GitClient.cs:290 after waiting 0.0002797s
+2016-06-13 15:40:48.4239|INFO|thread:20|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 226 at BranchSynchronizer.cs:126 after waiting 0.0002197s
+2016-06-13 15:40:48.4379|INFO|thread:20|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-06-13 15:40:48.4379|INFO|thread:20|AsyncReaderWriterLock|Released concurrent scheduler for operation: 226 at BranchSynchronizer.cs:126 after blocking 0.0095288s
+2016-06-13 15:40:48.4379|INFO|thread:60|AsyncReaderWriterLock|Released concurrent scheduler for operation: 223 at GitClient.cs:201 after blocking 0.0273807s
+2016-06-13 15:40:48.4584|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:40:48.4584|INFO|thread:47|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:40:48.4584|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:40:48.5300|INFO|thread:17|ConcurrentRepositoryConnection|Took 68ms to git status
+2016-06-13 15:40:48.5300|INFO|thread:17|ConcurrentRepositoryConnection|Took 68ms to git status and parse output
+2016-06-13 15:40:48.5300|INFO|thread:17|NewCommitViewModel|Took 109ms to load files for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:40:48.5300|INFO|thread:17|AsyncReaderWriterLock|Released concurrent scheduler for operation: 225 at GitClient.cs:290 after blocking 0.1095818s
+2016-06-13 15:40:48.5585|INFO|thread: 1|NewCommitViewModel|Took 24ms to render file list for C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1
+2016-06-13 15:40:48.5585|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 227 at RepositoryViewModel.cs:336
+2016-06-13 15:40:48.5585|INFO|thread:61|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 227 at RepositoryViewModel.cs:336 after waiting 3E-05s
+2016-06-13 15:40:48.5800|INFO|thread:50|AsyncReaderWriterLock|Released concurrent scheduler for operation: 227 at RepositoryViewModel.cs:336 after blocking 0.0153628s
+2016-06-13 15:41:12.6313|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 228 at ICommitCreator.cs:89
+2016-06-13 15:41:12.6313|INFO|thread:47|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 228 at ICommitCreator.cs:89 after waiting 8.7E-05s
+2016-06-13 15:41:12.6403|INFO|thread:20|ExclusiveRepositoryConnection|Creating Commit
+2016-06-13 15:41:12.6543|INFO|thread:20|ExclusiveRepositoryConnection|Creating new commit with 2 file(s). Data
+
+Data
+
+2016-06-13 15:41:12.7028|INFO|thread:20|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:41:12.7028|INFO|thread:20|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:41:12.7028|INFO|thread:20|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'add --all "Data.xlsx" ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:41:12.9079|INFO|thread:20|GitEnvironment|Process set up with this SSH Agent info: 56944:/tmp/ssh-hBYqb64ITIOH/agent.50608
+2016-06-13 15:41:12.9079|INFO|thread:20|GitEnvironment|PATH is C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\bin;C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\usr\share\git-tfs;C:\Users\Ogni\AppData\Local\Apps\2.0\A3J9CYBA.8AC\VRC24TAM.K91\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894;C:\Users\Ogni\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\WINDOWS\System32
+2016-06-13 15:41:12.9079|INFO|thread:20|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Ogni\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd\git.exe', Args: 'add --all "~$Data.xlsx" ', Working Directory: C:\Users\Ogni\Documents\GitHub\AST-06-Stage-1\
+2016-06-13 15:41:12.9920|INFO|thread:66|AsyncReaderWriterLock|Released exclusive scheduler for operation: 228 at ICommitCreator.cs:89 after blocking 0.3603012s
