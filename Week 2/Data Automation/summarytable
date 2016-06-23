@@ -1,0 +1,37 @@
+#!/usr/bin/python
+
+import csv
+import sys
+
+"""
+with open(file_name) as f:
+               lines = f.readlines()
+               filter = []
+               for line in lines:
+                  if "MF2NAME" in lines:
+                  filter.append(line.split()[1])
+            f.close()
+            
+"""
+
+def create_table():
+    with open("Data.csv") as f:
+        pi = []
+        project_name = []
+        mask = []
+        file_name = []
+        lines = f.readlines()
+        for line in lines:
+        	pi.append(line.split()[1])
+        	project_name.append(line.split()[2])
+        	mask.append(line.split()[3])
+        	file_name.append(line.split()[4])
+        	
+    f.close()    
+    for a, b, c, d in zip(pi, project_name, mask, file_name):
+        print a, b, c, e
+
+
+if __name__== "__main__":
+
+  create_table()
